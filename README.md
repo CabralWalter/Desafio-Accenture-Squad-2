@@ -8,6 +8,6 @@ Walter Cabral<br />
 Ruan Lucena<br />
 Igor Nascimento<br />
 Everton Sebastião<br />
-Luiz Primo<br />
+Luiz Vinicius Primo<br />
 Lucas Pedro<br />
 João Victor Paes<br />
