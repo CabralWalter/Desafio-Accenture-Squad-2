@@ -1,4 +1,5 @@
-function logar(){
+function logar()
+{
     //capturando os valores dos input's 
     let login = document.getElementById('usuario').value;
     let senha = document.getElementById('senha').value;
