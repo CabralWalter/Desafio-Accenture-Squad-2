@@ -21,7 +21,7 @@ body {
 .container {
   position: relative;
   width: 450px;
-  height: 500px;
+  height: 505px;
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;
@@ -32,7 +32,7 @@ body {
 .acc-logo {
   height: 120px;
   width: 110px;
-  background: url(/Projeto/frontend/FormulárioDeAcesso/assets/110x121.png);
+  background: url("assets/110x121.png");
   margin: auto;
   /*border-radius: 50%;*/
   box-sizing: border-box;
@@ -40,7 +40,7 @@ body {
 }
 
 .acc-title {
-  margin-top: 10px;
+  
   font-weight: 900;
   font-size: 1.8rem;
   color: #A100FF;
@@ -52,7 +52,7 @@ body {
   margin-top: 30px;
 }
 
-label, input, button {
+label, input {
   display: block;
   width: 100%;
   padding: 0;
@@ -83,7 +83,13 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
-button {
+.submit{
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.button1 {
+  width: 100%;
   color: white;
   margin-top: 20px;
   background: #A100FF;
@@ -95,20 +101,33 @@ button {
   transition: 0.5s;
 }
 
-button:hover {
-  box-shadow: none;
+.button2 {
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  background: #222823;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
 }
 
-a {
-  position: absolute;
-  font-size: 8px;
-  bottom: 4px;
-  right: 4px;
-  text-decoration: none;
-  color: black;
-  background: yellow;
-  border-radius: 10px;
-  padding: 2px;
+.request{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.password {
+
+  color: #A100FF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 h1 {
