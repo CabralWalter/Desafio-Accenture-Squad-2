@@ -6,7 +6,9 @@ function logar()
 
     //validação do usuario e senha "nessa validação estamos trabalhando com um unico usuario e senha"
     if(login == 'admin' && senha == 'admin'){
-        location.href = "home.html"
+        alert("deu certo!!")
+        location.href = "http://localhost:4200"
+    
     }else{
         alert('Usuario ou senha invalido');
     }
