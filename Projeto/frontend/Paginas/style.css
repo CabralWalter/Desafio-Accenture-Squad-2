@@ -1,0 +1,29 @@
+
+
+
+
+*{
+    margin: 0.5;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+
+#LabelDoEndereco{
+    position: relative;
+    top: 1rem;
+}
+
+#NotasDeEntrada{
+    position: relative;
+    top: 0.5rem;
+}
+
+.NotasEntrada{
+    display: flex;
+    width: 1rem;
+    
+}
+
+
+
