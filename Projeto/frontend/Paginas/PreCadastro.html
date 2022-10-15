@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <title></title>
+  </head>
+  <body>
+    <form class="row g-3">
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label"
+          >Nome Completo</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          id="formGroupExampleInput2"
+          placeholder="Nome completo"
+        />
+      </div>
+      <div class="row g-3">
+        <label for="form-control" id="LabelDoEndereco">Endereço</label>
+        <div class="col-sm-7">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Cidade"
+            aria-label="City"
+          />
+        </div>
+        <div class="col-sm">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Estado"
+            aria-label="State"
+          />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Pretensão Salarial</label>
+        <input
+          type="email"
+          class="form-control"
+          id="inputEmail4"
+          placeholder="R$"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Nascimento</label>
+        <input type="date" class="form-control" id="inputCity" />
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Nível</label>
+        <select id="inputState" class="form-select">
+          <option selected>Junior...</option>
+          <option>Plenor</option>
+          <option>Senior</option>
+        </select>
+      </div>
+      <div class="NotasEntrada">
+        <label for="NotasDeEntrada" id="NotasDeEntrada" >Notas</label>
+        <label class="visually-hidden" for="autoSizingInputGroup"
+          ></label
+        >
+        <div class="input-group">
+          <div class="input-group-text">SQL</div>
+          <input
+            type="text"
+            class="form-control"
+            id="autoSizingInputGroup"
+            placeholder="Notas"
+          />
+        </div>
+        <label class="visually-hidden" for="autoSizingInputGroup"
+          >Username</label
+        >
+        <div class="input-group">
+          <div class="input-group-text">LG</div>
+          <input
+            type="text"
+            class="form-control"
+            id="autoSizingInputGroup"
+            placeholder="Notas"
+          />
+        </div>
+        <label class="visually-hidden" for="autoSizingInputGroup"
+          >Username</label
+        >
+        <div class="input-group">
+          <div class="input-group-text">EN</div>
+          <input
+            type="text"
+            class="form-control"
+            id="autoSizingInputGroup"
+            placeholder="Notas"
+          />
+        </div>
+      </div>
+      <div class="col-12"></div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
+    </form>
+  </body>
+</html>
