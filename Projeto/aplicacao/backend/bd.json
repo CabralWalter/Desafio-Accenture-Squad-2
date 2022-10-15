@@ -1,0 +1,21 @@
+{
+    "canditado":[
+        {
+            "nome": "Igor",
+            "nivel":"junior",
+            "faculdade": "senac"
+        },
+        
+        {
+            "nome": "walter",
+            "nivel":"junior",
+            "faculdade": "senac"
+        },
+        
+        {
+            "nome": "Ruan",
+            "nivel":"junior",
+            "faculdade": "senac"
+        }
+    ]
+}
