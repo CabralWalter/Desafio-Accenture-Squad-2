@@ -1,5 +1,5 @@
 <h1 align="center">Desafio Accenture - Squad 2 </h1>
-<p>Projeto integrador do Senac em parceria com o porto digital do Recife</p>
+<p>Projeto integrador do SENAC em parceria com o porto digital do Recife</p>
 
 <h2>Tecnologias Usadas <img width="50" src="https://cdn-icons-png.flaticon.com/512/2920/2920252.png"> </h2>
 
