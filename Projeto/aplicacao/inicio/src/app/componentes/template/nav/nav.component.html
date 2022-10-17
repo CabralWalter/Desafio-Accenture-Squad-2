@@ -1,0 +1,66 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+
+            
+            <a class="mat-list-item" routerLink="/">
+                Inicio
+                <i class="material-icons">
+                    home
+                </i>
+            </a>
+            
+            <a class="mat-list-item" routerLink="/cadastrar">
+                Cadastrar
+                <i class="material-icons">
+                    queue 
+                </i>
+            </a>
+
+            <a class="mat-list-item" routerLink="/entrevista">
+                Á Entrevista
+                <i class="material-icons">
+                    <img src="assets/status1.png" /> 
+                </i>
+            </a>
+
+            <a class="mat-list-item" routerLink="/omhold">
+                On Hold
+                <i class="material-icons">
+                    <img src="assets/status2.png" />  
+                </i>
+            </a>
+
+            <a class="mat-list-item" routerLink="/contratados">
+                Contratados
+                <i class="material-icons">
+                    <img src="assets/status3.png" />    
+                </i>
+            </a>
+
+            <a class="mat-list-item" routerLink="/inapto">
+                Inapto
+                <i class="material-icons">
+                    <img src="assets/status4.png" />   
+                </i>
+            </a>
+
+            <a class="mat-list-item" routerLink="/vagas">
+                Vagas
+                <i class="material-icons">
+                    queue
+                </i>
+            </a>
+
+            <a class="mat-list-item" routerLink="/analise">
+                Análise
+                <i class="material-icons">
+                    <img align="center" height="25" width="25" src="https://cdn-icons-png.flaticon.com/512/2936/2936709.png" />
+                </i>          
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+        <mat-sidenav-content class="content">
+            <router-outlet></router-outlet>
+        </mat-sidenav-content>
+</mat-sidenav-container>    
