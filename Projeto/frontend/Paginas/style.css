@@ -1,26 +1,35 @@
-#LabelDoEndereco{
-    position: relative;
-    top: 1rem;
+/*Controle do input Nome*/
+.DivParaNomeCompleto{
+    border: 3px dashed red;
+
 }
 
-#NotasDeEntrada{
-    position: relative;
-    top: 0.5rem;
-}
-
-.NotasEntrada{
-    display: flex;
-    width: 1rem;  
-}
-
-.NotasEntrada{
-    display: flex;
-    flex-direction: column;
+/*Controle do input email*/
+.DivParaEmail{
     border: 3px dashed red;
 }
 
+/*Controle da Div do Endereço*/
+.DivParaEndereco{
+    border: 3px dashed red;
+    height: 10rem;
+}
+
+
+/*Controle do input Notas*/
+#NotasEntradaDiv{
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+    width: 33rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*rControle do input RANGE de notas*/
 #customRange3{
     width: 30rem;;
 }
+
 
 
