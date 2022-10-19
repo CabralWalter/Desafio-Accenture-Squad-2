@@ -15,6 +15,10 @@
     height: 10rem;
 }
 
+/*Controle Pretensão salario*/
+.form-label{
+    border: 3px dashed red;
+}
 
 /*Controle do input Notas*/
 #NotasEntradaDiv{
@@ -26,10 +30,12 @@
     flex-direction: column;
 }
 
-/*rControle do input RANGE de notas*/
+/*Controle do input RANGE de notas*/
 #customRange3{
     width: 30rem;;
 }
+
+
 
 
 

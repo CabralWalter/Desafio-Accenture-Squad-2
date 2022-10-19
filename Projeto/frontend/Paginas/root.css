@@ -5,5 +5,19 @@
 }
 
 :root{
+    /*Padrão Accenture*/
+    --corPrimaria:#A100FF;
+    --corSecundaria:#D9D9D9;
+    --corTerciaria:#ffffff;
+    --sombra:0px 4px 4px 0px #00000040; 
+    --fonteAccenture:font-family: 'Poppins';
+    --tamanhoFontePadrao:font-size: 20px;
 
+    /*Cores Flags*/
+    --aEntrevistar:#DCED31;
+    --onHold:#FF784D;
+    --aprovado:#0CCE6B;
+    --inapto:#AD2E2E;
 }
+
+
