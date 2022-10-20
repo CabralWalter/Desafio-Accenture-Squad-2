@@ -12,6 +12,7 @@ import { FooterComponent } from './componentes/template/footer/footer.component'
 import { NavComponent } from './componentes/template/nav/nav.component';
 
 
+import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
@@ -23,6 +24,7 @@ import { ContratadosComponent } from './views/contratados/contratados.component'
 import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
 import { AnaliseComponent } from './views/analise/analise.component';
+import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
 
 
 
@@ -39,7 +41,8 @@ import { AnaliseComponent } from './views/analise/analise.component';
     ContratadosComponent,
     InaptoComponent,
     VagasComponent,
-    AnaliseComponent
+    AnaliseComponent,
+    PreCadastroComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,8 @@ import { AnaliseComponent } from './views/analise/analise.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
