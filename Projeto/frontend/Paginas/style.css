@@ -1,29 +1,115 @@
+/*Controle do input Nome*/
+.DivParaNomeCompleto{
 
-
-
-
-*{
-    margin: 0.5;
-    padding: 0.5rem;
-    box-sizing: border-box;
 }
 
+/*Controle do input email*/
+.DivParaEmail{
+   
+}
 
-#LabelDoEndereco{
+/*Controle Div Telefone*/
+#DivTelefone{
+    width: 28rem; 
+    margin-right: 1rem 
+}
+
+/*Controle Numero Telefone*/
+#inputZip{
+    width: auto;
+
+}
+
+/*Controle da Div do Endereço*/
+#Endereco{
+    width: 87.8rem;
+}
+
+/*Controle Div Pretensão salario*/
+#DivSalario{
+    width: 28rem;
+    margin-right: 1rem
+}
+
+/*Controle da Div Nascimento*/
+#DivNascimento{
+    width: 28rem;
+    margin-right: 1rem;
+}
+
+/*Controle Div Nivel de Candidato*/
+#NivelDiv{
+    width: 28rem;
+    margin-right: 1rem;
+}
+
+/*Controle Div */
+#VagaDiv{
+    width: 29.8rem;
+    margin-right: rem;
+}
+
+/*Controle do input Notas*/
+#NotasEntradaDiv{
     position: relative;
-    top: 1rem;
-}
-
-#NotasDeEntrada{
-    position: relative;
-    top: 0.5rem;
-}
-
-.NotasEntrada{
+    width: 28rem;
     display: flex;
-    width: 1rem;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+/*Controle do input RANGE de notas*/
+#customRange3{
+    width: auto;
+}
+
+#CandidatoDescricao{
+    width: 57.2rem;
+    margin-right: 1rem;
+}
+
+#CandidatoDescricao textarea{
+    height: 15rem;
+}
+
+#Anexar{
+    width: 29.7rem;
+    height: 20rem;
+}
+
+#BotaoSubmit{
+    display: flex;
+    width: 10rem;
+}
+
+.BotaoCadastrar button{
+    position: absolute;
+    font-size: 2rem;
+    left: 90rem;
+    bottom: -40px;
+}
+
+#DivEntrevista{
+    width: 28rem;
+}
+
+.BtnCadastrarCancelar{
+    display: flex;
+    justify-content: end;
+}
+
+.BtnCadastrarCancelar button{
+    margin: 0.5rem;
+    font-size: 2rem;
     
 }
 
+#btn1{
+    background-color: var(--corPrimaria);
+}
+
+#btn2{
+    background-color: red;
+}
 
 

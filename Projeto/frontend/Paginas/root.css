@@ -1,0 +1,50 @@
+*{
+    margin: 0.5;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    /*Padrão Accenture*/
+    --corPrimaria:#A100FF;
+    --corSecundaria:#D9D9D9;
+    --corTerciaria:#ffffff;
+    --sombra:-2px 0px 8px 5px rgba(0, 0, 0, 0.1); 
+    --fonteAccenture:font-family: 'Poppins';
+    --tamanhoFontePadrao:font-size: 20px;
+    --borda: border-radius: 1rem; 
+
+    /*Cores Flags*/
+    --aEntrevistar:#DCED31;
+    --onHold:#FF784D;
+    --aprovado:#0CCE6B;
+    --inapto:#AD2E2E;
+}
+
+body label{
+    font-family: var(--fonteAccenture);
+    font-size:large;
+}
+
+/*Adiciar Estilo de Sombra e Borda as Divs*/
+.DivParaNomeCompleto, 
+.DivParaEmail, 
+.DivParaEndereco, 
+.DivParaSalarioNascimento,
+.DescricaoCandidato,
+.AnexarDoc,
+#DivEntrevista,
+#DivSalario,
+#DivNascimento, 
+#NivelDiv, 
+#VagaDiv, 
+#NotasEntradaDiv, 
+#DivTelefone {
+    box-shadow: var(--sombra);
+    border-radius: 1rem;
+}
+
+/*Estilização de Botão*/
+
+
