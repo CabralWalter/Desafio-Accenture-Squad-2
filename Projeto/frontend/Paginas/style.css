@@ -1,115 +1,82 @@
 /*Controle do input Nome*/
-.DivParaNomeCompleto{
-
+#DivParaNomeCompleto {
+  width: 49%;
+  margin-right: 1rem;
 }
 
 /*Controle do input email*/
-.DivParaEmail{
-   
+#DivParaEmail {
+  width: 49%;
+  margin-right: 1rem;
 }
 
 /*Controle Div Telefone*/
-#DivTelefone{
-    width: 28rem; 
-    margin-right: 1rem 
-}
-
-/*Controle Numero Telefone*/
-#inputZip{
-    width: auto;
-
+#DivTelefone {
+  width: 20%;
+  margin-right: 1rem;
 }
 
 /*Controle da Div do Endereço*/
-#Endereco{
-    width: 87.8rem;
+#Endereco {
+  width: 45%;
+  margin-right: 1rem;
 }
 
 /*Controle Div Pretensão salario*/
-#DivSalario{
-    width: 28rem;
-    margin-right: 1rem
+#DivSalario {
+  width: 35%;
+  margin-right: 1rem;
 }
 
 /*Controle da Div Nascimento*/
-#DivNascimento{
-    width: 28rem;
-    margin-right: 1rem;
-}
-
-/*Controle Div Nivel de Candidato*/
-#NivelDiv{
-    width: 28rem;
-    margin-right: 1rem;
+#DivNascimento {
+  width: 32%;
+  margin-right: 1rem;
 }
 
 /*Controle Div */
-#VagaDiv{
-    width: 29.8rem;
-    margin-right: rem;
+#VagaDiv {
+  width: 33.33%;
 }
 
 /*Controle do input Notas*/
-#NotasEntradaDiv{
-    position: relative;
-    width: 28rem;
-    display: flex;
-    flex-direction: column;
-    margin-right: 1rem;
+#NotasEntradaDiv {
+  position: relative;
+  width: 66rem;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Controle do input RANGE de notas*/
-#customRange3{
-    width: auto;
+#customRange3 {
+  width: auto;
 }
 
-#CandidatoDescricao{
-    width: 57.2rem;
-    margin-right: 1rem;
+#CandidatoDescricao {
+  width: 100%;
+  margin-right: 1rem;
 }
 
-#CandidatoDescricao textarea{
-    height: 15rem;
+#CandidatoDescricao textarea {
+  height: 15rem;
 }
 
-#Anexar{
-    width: 29.7rem;
-    height: 20rem;
+.BotaoCadastrar button {
+  position: absolute;
+  font-size: 2rem;
+  left: 90rem;
+  bottom: -40px;
 }
 
-#BotaoSubmit{
-    display: flex;
-    width: 10rem;
+.BtnCadastrarCancelar {
+  display: flex;
+  justify-content: end;
 }
 
-.BotaoCadastrar button{
-    position: absolute;
-    font-size: 2rem;
-    left: 90rem;
-    bottom: -40px;
+.BtnCadastrarCancelar button {
+  margin: 0.5rem;
+  font-size: 2rem;
 }
-
-#DivEntrevista{
-    width: 28rem;
+#btn2 {
+  background-color: red;
 }
-
-.BtnCadastrarCancelar{
-    display: flex;
-    justify-content: end;
-}
-
-.BtnCadastrarCancelar button{
-    margin: 0.5rem;
-    font-size: 2rem;
-    
-}
-
-#btn1{
-    background-color: var(--corPrimaria);
-}
-
-#btn2{
-    background-color: red;
-}
-
-
