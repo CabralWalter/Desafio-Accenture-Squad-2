@@ -14,7 +14,7 @@
   </head>
   <body>
     <form class="row g-3">
-      <div class="DivParaNomeCompleto">
+      <div id="DivParaNomeCompleto">
         <div class="mb-3">
           <label for="formGroupExampleInput2" class="form-label">
             Nome Completo
@@ -27,33 +27,20 @@
           />
         </div>
       </div>
-      <div class="DivParaEmail">
-        <label for="">Email do Candidato</label>
-        <div class="input-group mb-3">
+      <div id="DivParaEmail">
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">
+            Email
+          </label>
           <input
             type="text"
             class="form-control"
-            placeholder="Email "
-            aria-label="Recipient's username"
-            aria-describedby="basic-addon2"
+            id="formGroupExampleInput2"
+            placeholder="username2022@example.com"
           />
-          <div class="input-group-append">
-            <span class="input-group-text" id="basic-addon2" type="email"
-              >@gmail.com</span
-            >
-          </div>
         </div>
       </div>
-      <div id="DivTelefone">
-        <div class="form-group col-md-2">
-          <label for="inputZip">Numero</label>
-          <input type="text" class="form-control" id="inputZip" />
-        </div>
-        <div class="form-group col-md-2">
-          <label for="inputZip">Numero</label>
-          <input type="text" class="form-control" id="inputZip" />
-        </div>
-      </div>
+
       <div class="DivParaEndereco" id="Endereco">
         <div class="row g-3">
           <label for="form-control" id="LabelDoEndereco">Endereço</label>
@@ -114,9 +101,18 @@
           </div>
         </div>
       </div>
+      <div id="DivTelefone">
+          <label for="inputZip">Numero</label>
+          <input type="tel" placeholder="+5519XXXXYYYY" class="form-control"/>
+          <label for="inputZip">Numero</label>
+          <input type="tel" placeholder="+55119XXXXYYYY" class="form-control"/>
+      </div>
       <div class="col-md-6" id="DivNascimento">
         <label for="inputCity" class="form-label">Nascimento</label>
         <input type="date" class="form-control" id="inputCity" />
+        <br>
+          <label for="formFileSm" class="form-label">Anexar Documento Curricular</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
       </div>
       <div class="col-md-6" id="DivSalario">
         <label for="inputEmail4" class="form-label">Pretensão Salarial</label>
@@ -126,39 +122,38 @@
           id="inputEmail4"
           placeholder="R$"
         />
-      </div>
-      <div class="col-md-4" id="NivelDiv">
-        <label for="inputState" class="form-label">Nível</label>
-        <select id="inputState" class="form-select">
-          <option selected>Junior...</option>
-          <option>Plenor</option>
-          <option>Senior</option>
-        </select>
-      </div>
-      <div class="col-md-4" id="VagaDiv">
-        <label for="inputState" class="form-label">Vaga</label>
-        <select id="inputState" class="form-select">
-          <option selected>Programador Web..</option>
-          <option>Programador Frontend</option>
-          <option>Programador Backend</option>
-          <option>Desenvolvedor NodeJs</option>
-          <option>Desenvolvedor AngularJS</option>
-          <option>Desenvolvedor VueJS</option>
-          <option>Desenvolvedor ReactJS</option>
-          <option>Desenvolvedor ReactJS</option>
-          <option>Desenvolvedor TypeScript</option>
-          <option>Desenvolvedor Python</option>
-          <option>Desenvolvedor SQL</option>
-          <option>Desenvolvedor C</option>
-          <option>Desenvolvedor C++</option>
-          <option>Desenvolvedor C#</option>
-          <option>Desenvolvedor Ruby</option>
-          <option>Desenvolvedor Swift</option>
-          <option>Desenvolvedor Go</option>
-          <option>Desenvolvedor Cloud</option>
-          <option>Analista de Dados</option>
-          <option>Analista de Requisitos</option>
-        </select>
+          <label for="inputState" class="form-label">Nível</label>
+          <select id="inputState" class="form-select">
+            <option selected>Junior...</option>
+            <option>Plenor</option>
+            <option>Senior</option>
+          </select>
+            <label for="inputState" class="form-label">Vaga</label>
+            <select id="inputState" class="form-select">
+              <option selected>Programador Web..</option>
+              <option>Programador Frontend</option>
+              <option>Programador Backend</option>
+              <option>Desenvolvedor NodeJs</option>
+              <option>Desenvolvedor AngularJS</option>
+              <option>Desenvolvedor VueJS</option>
+              <option>Desenvolvedor ReactJS</option>
+              <option>Desenvolvedor ReactJS</option>
+              <option>Desenvolvedor TypeScript</option>
+              <option>Desenvolvedor Python</option>
+              <option>Desenvolvedor SQL</option>
+              <option>Desenvolvedor C</option>
+              <option>Desenvolvedor C++</option>
+              <option>Desenvolvedor C#</option>
+              <option>Desenvolvedor Ruby</option>
+              <option>Desenvolvedor Swift</option>
+              <option>Desenvolvedor Go</option>
+              <option>Desenvolvedor Cloud</option>
+              <option>Analista de Dados</option>
+              <option>Analista de Requisitos</option>
+            </select>
+            <br>
+              <label for="inputCity" class="form-label">Data da Entrevista</label>
+              <input type="date" class="form-control" id="inputCity" />
       </div>
       <div class="NotasEntrada" id="NotasEntradaDiv">
         <p>Notas de Avaliação</p>
@@ -199,16 +194,6 @@
             rows="3"
           ></textarea>
         </div>
-      </div>
-      <div class="AnexarDoc" id="Anexar">
-        <div class="mb-3">
-          <label for="formFileSm" class="form-label">Anexar Documento Curricular</label>
-          <input class="form-control form-control-sm" id="formFileSm" type="file">
-        </div> 
-      </div>
-      <div class="col-md-6" id="DivEntrevista">
-        <label for="inputCity" class="form-label">Data da Entrevista</label>
-        <input type="date" class="form-control" id="inputCity" />
       </div>
       <div class="BtnCadastrarCancelar">
         <button type="button" class="btn btn-primary btn-lg" id="btn1">Cadastrar</button>

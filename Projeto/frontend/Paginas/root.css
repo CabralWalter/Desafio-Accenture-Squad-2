@@ -5,6 +5,17 @@
     
 }
 
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+div{
+    margin: 1rem 0.1px 1rem 0.1px;
+}
+
+
+
 :root{
     /*Padrão Accenture*/
     --corPrimaria:#A100FF;
@@ -22,18 +33,18 @@
     --inapto:#AD2E2E;
 }
 
-body label{
+body label, input{
     font-family: var(--fonteAccenture);
-    font-size:large;
+    font-size:1.2rem;
 }
 
-/*Adiciar Estilo de Sombra e Borda as Divs*/
-.DivParaNomeCompleto, 
-.DivParaEmail, 
+/*Adiciar Estilo de Sombra e Borda as Divs*/ 
 .DivParaEndereco, 
 .DivParaSalarioNascimento,
 .DescricaoCandidato,
 .AnexarDoc,
+#DivParaEmail,
+#DivParaNomeCompleto,
 #DivEntrevista,
 #DivSalario,
 #DivNascimento, 
@@ -42,7 +53,7 @@ body label{
 #NotasEntradaDiv, 
 #DivTelefone {
     box-shadow: var(--sombra);
-    border-radius: 1rem;
+    border-radius: 1.5rem;
 }
 
 /*Estilização de Botão*/
