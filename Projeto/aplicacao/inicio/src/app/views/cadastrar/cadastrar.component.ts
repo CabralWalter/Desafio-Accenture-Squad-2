@@ -16,5 +16,6 @@ export class CadastrarComponent implements OnInit {
   navegarPrecadastro(): void{
     this.router.navigate(['/cadastro/pre-cadastro'])
   }
+  
 
 }

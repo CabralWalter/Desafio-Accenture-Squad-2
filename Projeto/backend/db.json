@@ -1,31 +1,40 @@
 {
-    "candidatos" : 
-    [
-        {
-        "id" : 1,
-        "nome" : "Ruan Rickelme",
-        "idade" : 22,
-        "nivelIngles": "Intermediário",
-        "nivelSQL" : "Intermediário",
-        "nivelLogicaProgramacao" : "Intermediário"
-        },
-
-        {
-        "id" : 2,
-        "nome" : "Walter Cabral",
-        "idade" : 21,
-        "nivelIngles": "Fluente",
-        "nivelSQL" : "Intermediário",
-        "nivelLogicaProgramacao" : "Intermediário"
-        },
-
-        {
-        "id" : 3,
-        "nome" : "Igor Nascimento",
-        "idade" : 22,
-        "nivelIngles": "Básico",
-        "nivelSQL" : "Intermediário",
-        "nivelLogicaProgramacao" : "Avançado"
-        }
-    ]
+  "candidatos": [
+    {
+      "id": 1,
+      "nome": "Ruan Rickelme",
+      "idade": 22,
+      "nivelIngles": "Intermediário",
+      "nivelSQL": "Intermediário",
+      "nivelLogicaProgramacao": "Intermediário"
+    },
+    {
+      "id": 2,
+      "nome": "Walter Cabral",
+      "idade": 21,
+      "nivelIngles": "Fluente",
+      "nivelSQL": "Intermediário",
+      "nivelLogicaProgramacao": "Intermediário"
+    },
+    {
+      "id": 3,
+      "nome": "Igor Nascimento",
+      "idade": 22,
+      "nivelIngles": "Básico",
+      "nivelSQL": "Intermediário",
+      "nivelLogicaProgramacao": "Avançado"
+    },
+    {
+      "nome": "Igor",
+      "nivel": "junior",
+      "faculdade": "Senac",
+      "id": 4
+    },
+    {
+      "nome": "Igor",
+      "nivel": "junior",
+      "faculdade": "Senac",
+      "id": 5
+    }
+  ]
 }

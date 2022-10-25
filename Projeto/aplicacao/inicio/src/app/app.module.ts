@@ -25,6 +25,13 @@ import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
 import { AnaliseComponent } from './views/analise/analise.component';
 import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {HttpClientModule} from '@angular/common/http';
+
+
+import { FormsModule } from '@angular/forms';
+
+
 
 
 
@@ -52,7 +59,11 @@ import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-ca
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
