@@ -25,4 +25,8 @@ export class CadastroService {
   CriaCandidato(cadastro: Cadastro): Observable<Cadastro>{
     return this.http.post<Cadastro>(this.baseUrl, cadastro);
   }
+
+  lerCandidato(): Observable<Cadastro[]>{
+    return this.http.get<Cadastro[]>(this.baseUrl)
+  }
 }

@@ -30,6 +30,7 @@ import {HttpClientModule} from '@angular/common/http';
 
 
 import { FormsModule } from '@angular/forms';
+import { CadastroLerComponent } from './componentes/cadastro/cadastro-ler/cadastro-ler.component';
 
 
 
@@ -49,7 +50,8 @@ import { FormsModule } from '@angular/forms';
     InaptoComponent,
     VagasComponent,
     AnaliseComponent,
-    PreCadastroComponent
+    PreCadastroComponent,
+    CadastroLerComponent
   ],
   imports: [
     BrowserModule,
