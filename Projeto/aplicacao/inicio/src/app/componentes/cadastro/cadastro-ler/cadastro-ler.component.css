@@ -25,10 +25,21 @@
     width: 55%;
 }
 
-.svg {
-    position: relative;
-    height: 60px;
-    width: 84px;
-    top: -30px;
-    right: 50px;
+
+.col-sm{
+    width: 40rem;
 }
+
+.material-icons{
+    justify-content: end;
+    margin-right: 0px;
+}
+
+.form-control {
+    align-items: flex-end;
+}
+
+#icons{
+    width: 25%;
+}
+

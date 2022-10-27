@@ -141,7 +141,7 @@
           </select>
           <br>
             <label for="inputCity" class="form-label">Data da Entrevista</label>
-            <input type="date" class="form-control" id="inputCity" [(ngModel)]="candidato.dataEntrevista" name="dataEntrevista"/>
+            <input type="datetime-local" data-form-date class="form-control" id="inputCity" [(ngModel)]="candidato.dataEntrevista" name="dataEntrevista"/>
     </div>
     <div class="NotasEntrada" id="NotasEntradaDiv">
       <p>Notas de Avaliação</p>

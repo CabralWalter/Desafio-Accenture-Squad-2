@@ -10,6 +10,7 @@ import { Cadastro } from '../cadastro.model';
 })
 export class PreCadastroComponent implements OnInit {
 
+
   candidato: Cadastro = {
     nome: '',
     nivel: '',
