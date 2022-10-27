@@ -14,7 +14,7 @@ export class CadastroService {
   baseUrl= "http://localhost:3001/candidatos"
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
-  mensagemSucesso(msg: string){
+  mensagemSucesso(msg: string): void{
     this.snackBar.open(msg, '', {
       duration: 3000,
       horizontalPosition: "right",
@@ -25,6 +25,7 @@ export class CadastroService {
   CriaCandidato(cadastro: Cadastro): Observable<Cadastro>{
     return this.http.post<Cadastro>(this.baseUrl, cadastro);
   }
+  
 
   lerCandidato(): Observable<Cadastro[]>{
     return this.http.get<Cadastro[]>(this.baseUrl)

@@ -9,14 +9,23 @@ import { Cadastro } from '../cadastro.model';
 })
 export class CadastroLerComponent implements OnInit {
 
-  cadatros?: Cadastro[];
+ /* candidatos: Cadastro[] | undefined;
+
+  cadastros:Array<Cadastro> = [
+    {nome: "igor", nivel: "junior", faculdade: "senac"},
+    {nome: "Lendro", nivel: "senior", faculdade: "federal"}
+  ];
+*/
+cadastros?: Cadastro[]
 
   constructor(private cadastroServico: CadastroService) { }
 
   ngOnInit(): void {
-    this.cadastroServico.lerCandidato().subscribe(cadatros =>{
-      this.cadatros = cadatros
+    
+    this.cadastroServico.lerCandidato().subscribe(cadastros =>{
+      this.cadastros = cadastros
     })
+    
   }
 
 }

@@ -1,58 +1,39 @@
 {
   "candidatos": [
     {
-      "id": 1,
-      "nome": "Ruan Rickelme",
-      "idade": 22,
-      "nivelIngles": "Intermediário",
-      "nivelSQL": "Intermediário",
-      "nivelLogicaProgramacao": "Intermediário"
-    },
-    {
-      "id": 2,
-      "nome": "Walter Cabral",
-      "idade": 21,
-      "nivelIngles": "Fluente",
-      "nivelSQL": "Intermediário",
-      "nivelLogicaProgramacao": "Intermediário"
-    },
-    {
-      "id": 3,
-      "nome": "Igor Nascimento",
-      "idade": 22,
-      "nivelIngles": "Básico",
-      "nivelSQL": "Intermediário",
-      "nivelLogicaProgramacao": "Avançado"
-    },
-    {
-      "nome": "Igor",
-      "nivel": "junior",
-      "faculdade": "Senac",
-      "id": 4
-    },
-    {
-      "nome": "Igor",
-      "nivel": "junior",
-      "faculdade": "Senac",
-      "id": 5
-    },
-    {
-      "nome": "Igor",
-      "nivel": "junior",
-      "faculdade": "Senac",
-      "id": 6
-    },
-    {
-      "nome": "Igor",
-      "nivel": "junior",
-      "faculdade": "Senac",
+      "nome": "diegoigor2001@gmail.com",
+      "nivel": "Plenor",
+      "dataEntrevista": "2022-10-21",
+      "email": "diegoigor2001@gmail.com",
       "id": 7
     },
     {
-      "nome": "Igor",
-      "nivel": "junior",
-      "faculdade": "Senac",
+      "nome": "igor vinicius",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-06",
+      "email": "diegoigor2001@gmail.com",
       "id": 8
+    },
+    {
+      "nome": "teste123",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-08",
+      "email": "diegoigor2001@gmail.com",
+      "id": 9
+    },
+    {
+      "nome": "LEANDRO",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-22",
+      "email": "",
+      "id": 10
+    },
+    {
+      "nome": "Cacau",
+      "nivel": "",
+      "dataEntrevista": "2022-10-28T15:46",
+      "email": "diegoigor2001@gmail.com",
+      "id": 11
     }
   ]
 }

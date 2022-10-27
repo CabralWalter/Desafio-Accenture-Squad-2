@@ -31,6 +31,9 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { FormsModule } from '@angular/forms';
 import { CadastroLerComponent } from './componentes/cadastro/cadastro-ler/cadastro-ler.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
@@ -51,7 +54,8 @@ import { CadastroLerComponent } from './componentes/cadastro/cadastro-ler/cadast
     VagasComponent,
     AnaliseComponent,
     PreCadastroComponent,
-    CadastroLerComponent
+    CadastroLerComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -64,7 +68,10 @@ import { CadastroLerComponent } from './componentes/cadastro/cadastro-ler/cadast
     MatButtonModule,
     MatSnackBarModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
    
   ],
   providers: [],
