@@ -1,1 +1,5 @@
-<button>cadastro-ler works!</button>
+<ul *ngFor="let item of cadastros">
+    <li>
+        {{item.nome | json}} - {{item.nivel}} - {{item.faculdade}}
+    </li>
+</ul>
