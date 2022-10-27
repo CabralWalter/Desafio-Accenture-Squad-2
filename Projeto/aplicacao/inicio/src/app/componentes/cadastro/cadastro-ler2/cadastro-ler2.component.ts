@@ -2,7 +2,8 @@ import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
-import { CadastroLer2DataSource, CadastroLer2Item } from './cadastro-ler2-datasource';
+import { Cadastro } from '../cadastro.model';
+import { CadastroLer2DataSource } from './cadastro-ler2-datasource';
 
 @Component({
   selector: 'app-cadastro-ler2',
@@ -12,7 +13,7 @@ import { CadastroLer2DataSource, CadastroLer2Item } from './cadastro-ler2-dataso
 export class CadastroLer2Component implements AfterViewInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  @ViewChild(MatTable) table!: MatTable<CadastroLer2Item>;
+  @ViewChild(MatTable) table!: MatTable<Cadastro>;
   dataSource: CadastroLer2DataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */

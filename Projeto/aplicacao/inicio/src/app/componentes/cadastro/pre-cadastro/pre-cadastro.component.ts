@@ -10,11 +10,11 @@ import { Cadastro } from '../cadastro.model';
 })
 export class PreCadastroComponent implements OnInit {
 
-  candidato01: Cadastro = {
-    nome: "Igor",
-    nivel: "junior",
-    faculdade: "Senac",
-
+  candidato: Cadastro = {
+    nome: '',
+    nivel: '',
+    dataEntrevista: '',
+    email:''
   }
 
   constructor(private cadastroService: CadastroService, private router: Router) { }
@@ -23,10 +23,11 @@ export class PreCadastroComponent implements OnInit {
   }
   
   criarCadastro(): void{
-    this.cadastroService.mensagemSucesso('Operação realizado com sucesso');
-    this.router.navigate(['/cadastrar']);
+   
     //verificar back-end
-    this.cadastroService.CriaCandidato(this.candidato01).subscribe(()=> {
+    this.cadastroService.CriaCandidato(this.candidato).subscribe(()=> {
+      this.cadastroService.mensagemSucesso('Operação realizado com sucesso');
+      this.router.navigate(['/cadastrar']);
     })
   }
 
