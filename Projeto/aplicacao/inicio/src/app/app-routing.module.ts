@@ -1,3 +1,5 @@
+import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
+import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
 
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -48,6 +50,14 @@ const routes: Routes = [
 {
   path: "cadastro/pre-cadastro",
   component: PreCadastroComponent
+},
+{
+  path: "cadastro/cadastro-atualizar/:id",
+  component: CadastroAtualizarComponent
+},
+{
+  path: "cadastro/cadastro-deletar/:id",
+  component: CadastroDeletarComponent
 }
 ];
 

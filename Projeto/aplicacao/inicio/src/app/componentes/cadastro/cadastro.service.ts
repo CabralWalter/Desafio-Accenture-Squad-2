@@ -30,4 +30,19 @@ export class CadastroService {
   lerCandidato(): Observable<Cadastro[]>{
     return this.http.get<Cadastro[]>(this.baseUrl)
   }
+
+  lerPorId(id: number): Observable<Cadastro>{
+      const url= `${this.baseUrl}/${id}`  
+    return this.http.get<Cadastro>(url)
+  }
+
+  atualizarCadastro(cadastro: Cadastro): Observable<Cadastro>{
+    const url= `${this.baseUrl}/${cadastro.id}`
+    return this.http.put<Cadastro>(url, cadastro)
+  }
+
+  deletarCadastro(id: String): Observable<Cadastro>{
+    const url = `${this.baseUrl}/${id}`;   
+    return this.http.delete<Cadastro>(url);
+  }
 }
