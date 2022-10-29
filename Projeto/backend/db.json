@@ -1,13 +1,6 @@
 {
   "candidatos": [
     {
-      "nome": "diegoigor2001@gmail.com",
-      "nivel": "Plenor",
-      "dataEntrevista": "2022-10-21",
-      "email": "diegoigor2001@gmail.com",
-      "id": 7
-    },
-    {
       "nome": "igor vinicius",
       "nivel": "Senior",
       "dataEntrevista": "2022-10-06",
@@ -34,6 +27,20 @@
       "dataEntrevista": "2022-10-28T15:46",
       "email": "diegoigor2001@gmail.com",
       "id": 11
+    },
+    {
+      "nome": "xuxu belçeza",
+      "nivel": "Plenor",
+      "dataEntrevista": "2022-10-13T13:25",
+      "email": "diegoigor2001@gmail.com",
+      "id": 12
+    },
+    {
+      "nome": "Igor vinicius da silva Nascimento",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-15T02:22",
+      "email": "diegoigor2001@gmail.com",
+      "id": 13
     }
   ]
 }

@@ -1,5 +1,11 @@
 *{
     color:black;
+    margin-bottom: 0rem;
+    margin-top: 0px;
+}
+.fomrs{
+    margin-bottom: 0rem;
+    margin-top: 0px;
 }
 
 .row {
@@ -26,20 +32,32 @@
 }
 
 
-.col-sm{
-    width: 40rem;
+.col-7{
+    width: 40%;
 }
 
-.material-icons{
-    justify-content: end;
-    margin-right: 0px;
+
+.col-1{
+    width: 70%;
 }
 
-.form-control {
-    align-items: flex-end;
-}
+
 
 #icons{
     width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-6{
+    width: 40%;
+    display: flex;
+    
+}
+
+button{
+    width: 15%;
+    height: 2.5rem;
+    margin-left: 1rem;
+    font-size: 13px;
 }
 
