@@ -12,6 +12,7 @@ import { FooterComponent } from './componentes/template/footer/footer.component'
 import { NavComponent } from './componentes/template/nav/nav.component';
 
 
+import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
@@ -23,6 +24,20 @@ import { ContratadosComponent } from './views/contratados/contratados.component'
 import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
 import { AnaliseComponent } from './views/analise/analise.component';
+import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {HttpClientModule} from '@angular/common/http';
+
+
+import { FormsModule } from '@angular/forms';
+import { CadastroLerComponent } from './componentes/cadastro/cadastro-ler/cadastro-ler.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
+import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
+
+
 
 
 
@@ -39,7 +54,12 @@ import { AnaliseComponent } from './views/analise/analise.component';
     ContratadosComponent,
     InaptoComponent,
     VagasComponent,
-    AnaliseComponent
+    AnaliseComponent,
+    PreCadastroComponent,
+    CadastroLerComponent,
+    CadastroAtualizarComponent,
+    CadastroDeletarComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -48,7 +68,15 @@ import { AnaliseComponent } from './views/analise/analise.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,31 +1,46 @@
 {
-    "candidatos" : 
-    [
-        {
-        "id" : 1,
-        "nome" : "Ruan Rickelme",
-        "idade" : 22,
-        "nivelIngles": "Intermediário",
-        "nivelSQL" : "Intermediário",
-        "nivelLogicaProgramacao" : "Intermediário"
-        },
-
-        {
-        "id" : 2,
-        "nome" : "Walter Cabral",
-        "idade" : 21,
-        "nivelIngles": "Fluente",
-        "nivelSQL" : "Intermediário",
-        "nivelLogicaProgramacao" : "Intermediário"
-        },
-
-        {
-        "id" : 3,
-        "nome" : "Igor Nascimento",
-        "idade" : 22,
-        "nivelIngles": "Básico",
-        "nivelSQL" : "Intermediário",
-        "nivelLogicaProgramacao" : "Avançado"
-        }
-    ]
+  "candidatos": [
+    {
+      "nome": "igor vinicius",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-06",
+      "email": "diegoigor2001@gmail.com",
+      "id": 8
+    },
+    {
+      "nome": "teste123",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-08",
+      "email": "diegoigor2001@gmail.com",
+      "id": 9
+    },
+    {
+      "nome": "LEANDRO",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-22",
+      "email": "",
+      "id": 10
+    },
+    {
+      "nome": "Cacau",
+      "nivel": "",
+      "dataEntrevista": "2022-10-28T15:46",
+      "email": "diegoigor2001@gmail.com",
+      "id": 11
+    },
+    {
+      "nome": "xuxu belçeza",
+      "nivel": "Plenor",
+      "dataEntrevista": "2022-10-13T13:25",
+      "email": "diegoigor2001@gmail.com",
+      "id": 12
+    },
+    {
+      "nome": "Igor vinicius da silva Nascimento",
+      "nivel": "Senior",
+      "dataEntrevista": "2022-10-15T02:22",
+      "email": "diegoigor2001@gmail.com",
+      "id": 13
+    }
+  ]
 }
