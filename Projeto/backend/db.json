@@ -42,5 +42,17 @@
       "email": "diegoigor2001@gmail.com",
       "id": 13
     }
-  ]
+  ],
+  
+  "vagas":[
+    {
+        "nomeVaga": "Analista de dados",
+        "modalidade": "Home",
+        "localidade": "Recife",
+        "tempoAlocacao": "01/02/2022",
+        "descricaoVaga": "vaga de recife",
+        "idioma": "ingles",
+        "skillTecnica": "SQL"
+    }
+]
 }
