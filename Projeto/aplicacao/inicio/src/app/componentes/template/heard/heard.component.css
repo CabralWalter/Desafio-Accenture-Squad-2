@@ -1,6 +1,12 @@
 .header{
     display: flex;
-    align-items: center;    
+    align-items: center;
+    background-color:#F1F1F1;
+    border-radius: 0 0 5px 5px; 
+    margin-top: 1rem;
+    margin-left: 10px;
+    padding: 4rem;  
+
 }
 
 .header a {
@@ -10,11 +16,7 @@
 }
 
 .header .logo {
-    max-width: 50px;
-}
-
-.title-group{
-    padding-left: 20px;
+    width: 6.5rem;
 }
 
 .header .title-group i {
@@ -29,3 +31,6 @@
     position: fixed;
 }
 
+button{
+    
+}
