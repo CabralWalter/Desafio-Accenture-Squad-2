@@ -8,15 +8,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 v-midle{
     vertical-align: middle;
 }
-
+*/
 
 *{
-    margin: 0.5;
+    margin: 0;
     padding: 0.5rem;
     box-sizing: border-box;
     
 }
-*/
+
 :root{
     /*Padrão Accenture*/
     --corPrimaria:#A100FF;

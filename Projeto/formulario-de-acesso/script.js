@@ -13,3 +13,4 @@ function logar()
         alert('Usuario ou senha invalido');
     }
 }
+

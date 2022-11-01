@@ -34,6 +34,8 @@ import { CadastroLerComponent } from './componentes/cadastro/cadastro-ler/cadast
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
+import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
 
 
 
@@ -55,6 +57,8 @@ import { MatSortModule } from '@angular/material/sort';
     AnaliseComponent,
     PreCadastroComponent,
     CadastroLerComponent,
+    CadastroAtualizarComponent,
+    CadastroDeletarComponent,
 
   ],
   imports: [
