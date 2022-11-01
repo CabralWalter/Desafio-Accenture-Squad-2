@@ -60,3 +60,7 @@ Adiciar Estilo de Sombra e Borda as Divs
 
 
 /*Estilização de Botão*/
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

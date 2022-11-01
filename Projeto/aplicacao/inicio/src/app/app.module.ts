@@ -36,6 +36,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
 import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
+import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar-vaga.component';
 
 
 
@@ -59,6 +60,7 @@ import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deleta
     CadastroLerComponent,
     CadastroAtualizarComponent,
     CadastroDeletarComponent,
+    CriarVagaComponent,
 
   ],
   imports: [

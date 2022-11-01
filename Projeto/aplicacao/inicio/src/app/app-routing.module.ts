@@ -1,3 +1,4 @@
+import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar-vaga.component';
 import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
 import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
 
@@ -58,6 +59,10 @@ const routes: Routes = [
 {
   path: "cadastro/cadastro-deletar/:id",
   component: CadastroDeletarComponent
+},
+{
+  path: "cadastroVagas/criar-vaga",
+  component: CriarVagaComponent
 }
 ];
 
