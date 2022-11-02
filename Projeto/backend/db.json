@@ -8,7 +8,7 @@
       "id": 8
     },
     {
-      "nome": "teste123",
+      "nome": "editar",
       "nivel": "Senior",
       "dataEntrevista": "2022-10-08",
       "email": "diegoigor2001@gmail.com",
@@ -20,13 +20,6 @@
       "dataEntrevista": "2022-10-22",
       "email": "",
       "id": 10
-    },
-    {
-      "nome": "Cacau",
-      "nivel": "",
-      "dataEntrevista": "2022-10-28T15:46",
-      "email": "diegoigor2001@gmail.com",
-      "id": 11
     },
     {
       "nome": "xuxu belçeza",
@@ -43,16 +36,19 @@
       "id": 13
     }
   ],
+
+
+
   
-  "vagas":[
+  "vagas": [
     {
-        "nomeVaga": "Analista de dados",
-        "modalidade": "Home",
-        "localidade": "Recife",
-        "tempoAlocacao": "01/02/2022",
-        "descricaoVaga": "vaga de recife",
-        "idioma": "ingles",
-        "skillTecnica": "SQL"
+      "nomeVaga": "Analista de dados",
+      "modalidade": "Home",
+      "localidade": "Recife",
+      "tempoAlocacao": "01/02/2022",
+      "descricaoVaga": "vaga de recife",
+      "idioma": "ingles",
+      "skillTecnica": "SQL"
     }
-]
+  ]
 }

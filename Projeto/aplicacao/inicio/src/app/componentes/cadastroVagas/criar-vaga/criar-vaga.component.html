@@ -4,7 +4,7 @@
           <div class="row g-3">
               <div class="col-sm-7">
                     <label for="form-control" id="LabelDoEndereco">Modalidade da Vaga</label>
-                     <input
+                     <input  [(ngModel)]="vaga.modalidade" name="modalidade"
                         type="text"
                         class="form-control"
                         placeholder="Modalidade da Vaga"
@@ -14,7 +14,7 @@
               <div class="col-sm">
                 <label for="form-control" id="LabelDoEndereco">Localidade</label>
               <div>
-                  <input
+                  <input  
                     type="text"
                     class="form-control"
                     placeholder="Localidade"
@@ -48,7 +48,7 @@
     
     <button class="btn btn-outline-secondary" type="button">Adicionar Idioma</button>
     
-    <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+    <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon"  [(ngModel)]="vaga.idioma" name="idioma">
               <option>Espanhol</option>
               <option>Inglês</option>
               <option>Francês</option>
@@ -81,7 +81,7 @@
     </div>
     
         <div class="BtnCadastrarCancelar">
-          <button type="button" class="btn btn-primary btn-lg" id="btn1">Cadastrar</button>
+          <button type="button" class="btn btn-primary btn-lg" id="btn1"(click)="criarCadastroVagas() ">Cadastrar</button>
           <button type="button" class="btn btn-secondary btn-lg" id="btn2" (click)=" cancelar()">Cancelar</button>
         </div>
       <!-- JavaScript Bundle with Popper -->
