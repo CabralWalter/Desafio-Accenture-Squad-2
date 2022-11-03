@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
 })
 export class CadastroVagasService {
 
-  baseUrl2 = "http://localhost:3001/vagas"
+  baseUrl = "http://localhost:3001/vagas"
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
@@ -22,6 +22,6 @@ export class CadastroVagasService {
   }
 
   criaVagas(vaga: CadastroVagas): Observable<CadastroVagas>{
-    return this.http.post<CadastroVagas>(this.baseUrl2, vaga);
+    return this.http.post<CadastroVagas>(this.baseUrl, vaga);
   }
 } 

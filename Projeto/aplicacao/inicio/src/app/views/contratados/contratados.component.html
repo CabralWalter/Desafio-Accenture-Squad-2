@@ -1,35 +1,55 @@
-<!-- <button>
-    
-    <p>CONTRATADOS</p>
-</button> -->
+<!--
+    <ul class="list-group" *ngFor="let item of cadastros">
+        <li class="list-group-item">
+            {{item.nome}}      {{item.nivel}}       {{item.dataEntrevista}}
+        </li>
+    </ul>
 
-<article class="corpo">
-    <div class="identificacao">
-        <div class="info" id="data">####</div>
-        <div class="info" id="id">####</div>
-        <div class="info" id="nome">####</div>
+-->
+<form *ngFor="let item of cadastros" class="fomrs">
+    <div class="row" id="row1">
+        <div class="col-7" id="datadiv">
+            <p class="form-control">{{item.dataEntrevista}}</p>
+        </div>
+        <div class="col" id="nome">
+            <p class="form-control">{{item.nome}}</p>
+        </div>
+        <div class="col-6">
+            <p class="form-control" id="icons">
+            <i class="icones">
+                <img src="assets/status3.png" alt="status em andamento"/> 
+            </i>
+            <a  class="icones" routerLink="/cadastro/cadastro-atualizar/{{item.id}}">
+                <i class="material-icons">
+                    edit
+                </i>
+            </a>
+            <a class="icones" routerLink="/cadastro/cadastro-deletar/{{item.id}}">
+                <i class="material-icons">
+                    delete
+                </i>
+            </a>
+            </p>
+        <button mat-raised-button color="primary" routerLink="/cadastro/entrevista/{{item.id}}">Ver entrevista</button>
+
+        </div>
+        
+        
+        
+       
     </div>
-    <div class="skills">
-        <textarea class="skill" cols="30" rows="8" placeholder="Soft Skills" wrap="hard"></textarea>
-        <textarea class="skill" cols="30" rows="8" placeholder="Skills Técnicas" wrap="hard"></textarea>
-    </div>
-
-    <div class="proposto">
-        <textarea class="propor" cols="30" rows="1" placeholder="Nível Proposto"></textarea>
-
-        <textarea class="propor" cols="30" rows="1" placeholder="Salário Proposto"></textarea>
-
-        <select id="proporStatus" class="form-select" cols="30" rows="1" placeholder="Status">
-        <option selected>A Entrevista</option>
-        <option>Aprovado</option>
-        <option>Contratado</option>
-        <option>Inapto</option>
-    </select>
-    </div>
+   
+</form>
+<form>
 
    
+        <form>
 
-    <div class="button">
-        <button>Finalizar Entrevista</button>
-    </div>
-</article>
+
+            <!-- JavaScript Bootstrap-->
+            <script src="script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                crossorigin="anonymous"></script>
+            </form>
+</form>

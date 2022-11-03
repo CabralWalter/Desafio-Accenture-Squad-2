@@ -18,7 +18,6 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { CadastrarComponent } from './views/cadastrar/cadastrar.component';
-import { EntrevistaComponent } from './views/entrevista/entrevista.component';
 import { OmholdComponent } from './views/omhold/omhold.component';
 import { ContratadosComponent } from './views/contratados/contratados.component';
 import { InaptoComponent } from './views/inapto/inapto.component';
@@ -37,6 +36,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
 import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
 import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar-vaga.component';
+import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevista.component';
 
 
 
@@ -50,7 +50,6 @@ import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar
     NavComponent,
     HomeComponent,
     CadastrarComponent,
-    EntrevistaComponent,
     OmholdComponent,
     ContratadosComponent,
     InaptoComponent,
@@ -61,7 +60,7 @@ import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar
     CadastroAtualizarComponent,
     CadastroDeletarComponent,
     CriarVagaComponent,
-
+    EntrevistaComponent
   ],
   imports: [
     BrowserModule,
