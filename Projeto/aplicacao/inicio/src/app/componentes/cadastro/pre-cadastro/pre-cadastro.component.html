@@ -1,8 +1,7 @@
 
 <form class="caixa">
-  
   <form class="row g-3">
-    <div id="DivParaNomeCompleto">
+    <div class="DivParaNomeCompleto boxEntrada">
       <div class="mb-3">
         <label for="formGroupExampleInput2" class="form-label">
           Nome Completo
@@ -15,7 +14,7 @@
         />
       </div>
     </div>
-    <div id="DivParaEmail">
+    <div class="DivParaEmail boxEntrada">
       <div class="mb-3">
         <label for="formGroupExampleInput2" class="form-label">
           Email
@@ -29,7 +28,7 @@
       </div>
     </div>
 
-    <div class="DivParaEndereco" id="Endereco">
+    <div class="DivParaEndereco boxEntrada" id="Endereco">
       <div class="row g-3">
         <label for="form-control" id="LabelDoEndereco">Endereço</label>
         <div class="col-sm-7">
@@ -89,20 +88,20 @@
         </div>
       </div>
     </div>
-    <div id="DivTelefone">
+    <div class="DivTelefone boxEntrada">
         <label for="inputZip">Numero</label>
         <input type="tel" placeholder="+5519XXXXYYYY" class="form-control"/>
         <label for="inputZip">Numero</label>
         <input type="tel" placeholder="+55119XXXXYYYY" class="form-control"/>
     </div>
-    <div class="col-md-6" id="DivNascimento">
+    <div class="col-md-6" class="DivNascimento boxEntrada">
       <label for="inputCity" class="form-label">Nascimento</label>
       <input type="date" class="form-control" id="inputCity" />
       <br>
         <label for="formFileSm" class="form-label">Anexar Documento Curricular</label>
         <input class="form-control form-control-sm" id="formFileSm" type="file">
     </div>
-    <div class="col-md-6" id="DivSalario">
+    <div class="col-md-6" class="DivSalario boxEntrada">
       <label for="inputEmail4" class="form-label">Pretensão Salarial</label>
       <input
         type="email"
@@ -143,7 +142,7 @@
             <label for="inputCity" class="form-label">Data da Entrevista</label>
             <input type="datetime-local" data-form-date class="form-control" id="inputCity" [(ngModel)]="candidato.dataEntrevista" name="dataEntrevista"/>
     </div>
-    <div class="NotasEntrada" id="NotasEntradaDiv">
+    <div class="NotasEntrada boxEntrada" id="NotasEntradaDiv">
       <p>Notas de Avaliação</p>
       <label for="customRange3" class="form-label">SQL</label>
       <input
@@ -173,13 +172,13 @@
         id="customRange3"
       />
     </div>
-    <div class="DescricaoCandidato" id="CandidatoDescricao">
+    <div class="DescricaoCandidato boxEntrada" id="CandidatoDescricao">
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Descrição Técnica</label>
         <textarea
           class="form-control"
           id="exampleFormControlTextarea1"
-          rows="3"
+          rows="9"
         ></textarea>
       </div>
     </div>
@@ -193,5 +192,4 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"
   ></script>
-
 </form>
