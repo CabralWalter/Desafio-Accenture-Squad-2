@@ -37,6 +37,7 @@ import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atua
 import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
 import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar-vaga.component';
 import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevista.component';
+import { NgChartsModule } from 'ng2-charts';
 
 
 
@@ -76,7 +77,8 @@ import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevist
     FormsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    NgChartsModule
    
   ],
   providers: [],
