@@ -43,6 +43,7 @@ export class AnaliseComponent implements OnInit {
 
     new Chart("myChart02" , {
       type: 'bar',
+      
     data: {
         labels: ['A Entrevista', 'Aprovados', 'Contratados', 'Inaptos'],
         datasets: [{
@@ -57,8 +58,10 @@ export class AnaliseComponent implements OnInit {
         }]
     },
     options: {
-       responsive: true
-    }
+       responsive: true,
+       indexAxis: 'y'
+    },
+    
     });
     
   }
