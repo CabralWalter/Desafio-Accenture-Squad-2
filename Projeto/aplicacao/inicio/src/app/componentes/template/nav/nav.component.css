@@ -6,14 +6,19 @@
     margin: 0;
     padding: 0.5rem;
     box-sizing: border-box;
-    
+}
+
+.navegador{
+    display: flex;
+    flex-direction: column;
 }
 
 button{
     border: 1px solid #D9D9D9;
-    margin: 0.35rem;
-    border-radius: 1rem;
+    margin: 4.5%;
     box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
 }
 
 a{
@@ -22,7 +27,7 @@ a{
 }
 
 .sidenav {
-    width: 15%;
+    width: 300px;
     margin-top: 4.5%;
     margin-left: 0.25%;
 }
@@ -49,13 +54,14 @@ a{
 
 .nav-list{
     border: 1px solid #D9D9D9;
+    border-radius: 5px;
     background-color: #F1F1F1;;
-    border-radius: 1rem;
 }
 
 .sidenav{
     background-color: rgb(255, 255, 255);
-    height: 60%;
+    height: 100%;
+    
 }
 
 .content{
@@ -64,10 +70,8 @@ a{
 .mat-drawer-container {
     position: relative;
     z-index: 1;
-    box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
     display: contents;
-    overflow: hidden;
 }
 
 .default:hover{
@@ -77,4 +81,51 @@ a{
     color: #F1F1F1;
 }
 
+.Entrevistar:hover{
+    transition: 1.2s;
+    background-color: #DCED31;
+}.ent:hover{
+    color: #313131;
+}
 
+.aprovados:hover{
+    transition: 1.2s;
+    background-color: #F47349; 
+}
+
+.contratados:hover{
+    transition: 1.2s;
+    background-color: #0CCE6B; 
+}
+
+.inapto:hover{
+    transition: 1.2s;
+    background-color: #D70B0B; 
+}.in:hover{
+    color: #F1F1F1;
+}
+
+
+
+/*Responsividade 1880px*/
+@media (max-width:1880px) {
+   .sidenav{
+    margin-top:7% ;
+   } 
+}
+
+/*Responsividade 1278px*/
+@media (max-width:1278px) {
+    .sidenav{
+     margin-top:10% ;
+    } 
+ }
+
+ 
+/*Responsividade 952px*/
+@media (max-width:952px) {
+    .sidenav{
+     margin-top:13%;
+     width: 250px;
+    } 
+ }
