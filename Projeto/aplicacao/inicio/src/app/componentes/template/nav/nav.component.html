@@ -1,82 +1,50 @@
 <mat-sidenav-container class="container1">
     <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
-        <mat-nav-list class="nav-list">
-
-            
-            <button>
-                <a class="mat-list-item" routerLink="/">
-                    Inicio
-                    <i class="material-icons">
-                        home
-                    </i>
-                </a>
-            </button>
-            
-            <button>
-                <a class="mat-list-item" routerLink="/cadastrar">
-                    Cadastrar
-                    <i class="material-icons">
-                        queue 
-                    </i>
+        <mat-nav-list class="nav-list navegador">
+            <button class="default freature">
+                <a class="mat-list-item fre def" routerLink="/">
+                    Início
                 </a>
             </button>
 
-            <button>
-                <a class="mat-list-item" routerLink="/entrevista">
-                    Á Entrevista
-                    <i class="material-icons">
-                        <img src="assets/status1.png" /> 
-                    </i>
+            <button class="freature Entrevistar">
+                <a class="mat-list-item ent" routerLink="/cadastrar">
+                    Entrevistar
                 </a>
             </button>
 
-            <button>
-            <a class="mat-list-item" routerLink="/omhold">
-                On Hold
-                <i class="material-icons">
-                    <img src="assets/status2.png" />  
-                </i>
-            </a>
+            <button class="freature aprovados">
+                <a class="mat-list-item" routerLink="/omhold">
+                    Aprovados
+                </a>
             </button>
 
-           <button>
-            <a class="mat-list-item" routerLink="/contratados">
-                Contratados
-                <i class="material-icons">
-                    <img src="assets/status3.png" />    
-                </i>
-            </a>
-           </button>
+            <button class="freature contratados">
+                <a class="mat-list-item" routerLink="/contratados">
+                    Contratados
+                </a>
+            </button>
 
-           <button>
-            <a class="mat-list-item" routerLink="/inapto">
-                Inapto
-                <i class="material-icons">
-                    <img src="assets/status4.png" />   
-                </i>
-            </a>
-           </button>
+            <button class="freature inapto">
+                <a class="mat-list-item in" routerLink="/inapto">
+                    Inapto
+                </a>
+            </button>
 
-            <button>
-                <a class="mat-list-item" routerLink="/vagas">
+            <button class="default">
+                <a class="mat-list-item def" routerLink="/vagas">
                     Vagas
-                    <i class="material-icons">
-                        queue
-                    </i>
                 </a>
             </button>
 
-            <button>
-                <a class="mat-list-item" routerLink="/analise">
+            <button class="default">
+                <a class="mat-list-item def" routerLink="/analise">
                     Análise
-                    <i class="material-icons">
-                        <img align="center" height="25" width="25" src="https://cdn-icons-png.flaticon.com/512/2936/2936709.png" />
-                    </i>          
                 </a>
             </button>
         </mat-nav-list>
     </mat-sidenav>
-        <mat-sidenav-content class="content">
-            <router-outlet></router-outlet>
-        </mat-sidenav-content>
-</mat-sidenav-container>   
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

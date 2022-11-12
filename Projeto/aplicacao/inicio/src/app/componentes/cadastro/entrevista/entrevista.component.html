@@ -1,0 +1,34 @@
+<!-- <button>
+    
+    <p>CONTRATADOS</p>
+</button> -->
+
+<article class="corpo">
+    <div class="identificacao">
+        <input class="info" id="data" [value]="candidato.dataEntrevista" name="dataEntrevista" disabled />
+        <input class="info" id="nome" [value]="candidato.nome" name="nome" disabled /> 
+    </div>
+    <div class="skills">
+        <textarea class="skill" cols="30" rows="8" placeholder="Soft Skills" wrap="hard"></textarea>
+        <textarea class="skill" cols="30" rows="8" placeholder="Skills Técnicas" wrap="hard"></textarea>
+    </div>
+
+    <div class="proposto">
+        <textarea class="propor" cols="30" rows="1" placeholder="Nível Proposto"></textarea>
+
+        <textarea class="propor" cols="30" rows="1" placeholder="Salário Proposto"></textarea>
+
+        <select id="proporStatus" class="form-select" cols="30" rows="1" placeholder="Status">
+        <option selected>A Entrevista</option>
+        <option>Aprovado</option>
+        <option>Contratado</option>
+        <option>Inapto</option>
+    </select>
+    </div>
+
+   
+
+    <div class="button">
+        <button (click)="autalizarCadastro()">Finalizar Entrevista</button>
+    </div>
+</article>

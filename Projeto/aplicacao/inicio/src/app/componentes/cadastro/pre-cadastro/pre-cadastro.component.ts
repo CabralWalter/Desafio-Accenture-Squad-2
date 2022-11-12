@@ -24,7 +24,6 @@ export class PreCadastroComponent implements OnInit {
   }
   
   criarCadastro(): void{
-   
     //verificar back-end
     this.cadastroService.CriaCandidato(this.candidato).subscribe(()=> {
       this.cadastroService.mensagemSucesso('Operação realizado com sucesso');

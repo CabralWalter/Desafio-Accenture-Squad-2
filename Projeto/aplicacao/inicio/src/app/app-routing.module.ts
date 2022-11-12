@@ -1,3 +1,4 @@
+import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar-vaga.component';
 import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
 import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
 
@@ -6,13 +7,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
 import { CadastrarComponent } from './views/cadastrar/cadastrar.component';
-import { EntrevistaComponent } from './views/entrevista/entrevista.component';
 import { OmholdComponent } from './views/omhold/omhold.component';
 import { ContratadosComponent } from './views/contratados/contratados.component';
 import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
 import { AnaliseComponent } from './views/analise/analise.component';
 import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
+import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevista.component';
 
 const routes: Routes = [
   {
@@ -22,10 +23,6 @@ const routes: Routes = [
 {
   path:"cadastrar",
   component: CadastrarComponent
-},
-{
- path: "entrevista",
- component: EntrevistaComponent
 },
 {
   path: "omhold",
@@ -58,6 +55,14 @@ const routes: Routes = [
 {
   path: "cadastro/cadastro-deletar/:id",
   component: CadastroDeletarComponent
+},
+{
+  path: "cadastro/entrevista/:id",
+  component: EntrevistaComponent
+},
+{
+  path: "cadastroVagas/criar-vaga",
+  component: CriarVagaComponent
 }
 ];
 

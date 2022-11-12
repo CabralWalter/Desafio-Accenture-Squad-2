@@ -8,7 +8,7 @@
       "id": 8
     },
     {
-      "nome": "teste123",
+      "nome": "editar",
       "nivel": "Senior",
       "dataEntrevista": "2022-10-08",
       "email": "diegoigor2001@gmail.com",
@@ -20,13 +20,6 @@
       "dataEntrevista": "2022-10-22",
       "email": "",
       "id": 10
-    },
-    {
-      "nome": "Cacau",
-      "nivel": "",
-      "dataEntrevista": "2022-10-28T15:46",
-      "email": "diegoigor2001@gmail.com",
-      "id": 11
     },
     {
       "nome": "xuxu belçeza",
@@ -41,6 +34,23 @@
       "dataEntrevista": "2022-10-15T02:22",
       "email": "diegoigor2001@gmail.com",
       "id": 13
+    },
+    {
+      "nome": "Ruan",
+      "nivel": "",
+      "dataEntrevista": "2022-11-16T19:12",
+      "email": "diegoigor2001@gmail.com",
+      "id": 14
+    },
+    {
+      "nome": "xuxuzinho",
+      "nivel": "",
+      "dataEntrevista": "2022-11-11T19:27",
+      "email": "",
+      "id": 15
     }
+  ],
+  "vagas": [
+    {}
   ]
 }
