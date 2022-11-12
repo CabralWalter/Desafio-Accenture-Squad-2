@@ -10,12 +10,12 @@
     border-radius: 1rem;
     margin-left: 8%;
     margin-top: 0;
-    box-shadow: 0.5px 1px 5px black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 textarea{
     border: none;
-    box-shadow: 0.5px 1px 5px black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 5px;
     resize: none;
 }
@@ -23,16 +23,23 @@ textarea{
 .identificacao{
     display: flex;
     padding: 20px 20px 0 20px;
+    justify-content: space-between;
 }
 
 .identificacao .info{
     background-color: #A100FF;
     padding: 15px 20px 15px 20px;
     border-radius: 5px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    min-width: 30%;
 }
 
 .identificacao .info:nth-child(1){
     margin-left: 5%;
+    
 }
 
 .identificacao .info:nth-child(2){
@@ -69,6 +76,7 @@ textarea{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    text-align: center;
 }
 
 .proposto .propor{
@@ -84,7 +92,7 @@ textarea{
     padding-top: 15px;
     margin-top: 10px;
     border: none;
-    box-shadow: 0.5px 1px 5px black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 5px;
     resize: none;
     align-items: center;
@@ -98,7 +106,7 @@ textarea{
     padding-top: 15px;
     margin-top: 10px;
     border: none;
-    box-shadow: 0.5px 1px 5px black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 5px;
     resize: none;
     align-items: center;
@@ -112,9 +120,11 @@ textarea{
 .button{
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 250px;
+    max-width: 13%;
+    min-width: 10%;
     padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: 17px;
 }
 
 .button button{
@@ -123,4 +133,23 @@ textarea{
     border: none;
     font-weight: bold;
     border-radius: 5px;
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    .button {
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 1172px) {
+    .button {
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 950px) {
+    .button {
+        max-width: 30%;
+    }
 }
