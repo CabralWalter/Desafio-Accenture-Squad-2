@@ -1,3 +1,4 @@
+import { Entrevista } from './entrevista.model';
 import { Cadastro } from './cadastro.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -13,6 +14,7 @@ export class CadastroService {
 
   baseUrl= "http://localhost:3001/candidatos"
 
+
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
   mensagemSucesso(msg: string): void{
     this.snackBar.open(msg, '', {
@@ -26,6 +28,9 @@ export class CadastroService {
     return this.http.post<Cadastro>(this.baseUrl, cadastro);
   }
   
+  CriaEntrevista(entrevista: Entrevista): Observable<Entrevista>{
+    return this.http.post<Entrevista>(this.baseUrl, entrevista);
+  }
 
   lerCandidato(): Observable<Cadastro[]>{
     return this.http.get<Cadastro[]>(this.baseUrl)

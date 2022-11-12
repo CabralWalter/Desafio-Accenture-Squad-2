@@ -1,56 +1,75 @@
 {
   "candidatos": [
     {
-      "nome": "igor vinicius",
+      "nome": "igor",
+      "email": "diegoigor2001@gmail.com",
+      "dataEntrevista": "2022-11-25T19:20",
+      "numero1": "teste",
+      "numero2": "81 984783558",
+      "pais": "Brasil",
+      "estado": "PE",
+      "cidade": "Recife",
+      "bairro": "Ibura",
       "nivel": "Senior",
-      "dataEntrevista": "2022-10-06",
-      "email": "diegoigor2001@gmail.com",
-      "id": 8
-    },
-    {
-      "nome": "editar",
-      "nivel": "Senior",
-      "dataEntrevista": "2022-10-08",
-      "email": "diegoigor2001@gmail.com",
-      "id": 9
-    },
-    {
-      "nome": "LEANDRO",
-      "nivel": "Senior",
-      "dataEntrevista": "2022-10-22",
-      "email": "",
-      "id": 10
-    },
-    {
-      "nome": "xuxu belçeza",
-      "nivel": "Plenor",
-      "dataEntrevista": "2022-10-13T13:25",
-      "email": "diegoigor2001@gmail.com",
-      "id": 12
-    },
-    {
-      "nome": "Igor vinicius da silva Nascimento",
-      "nivel": "Senior",
-      "dataEntrevista": "2022-10-15T02:22",
-      "email": "diegoigor2001@gmail.com",
-      "id": 13
-    },
-    {
-      "nome": "Ruan",
-      "nivel": "",
-      "dataEntrevista": "2022-11-16T19:12",
-      "email": "diegoigor2001@gmail.com",
-      "id": 14
-    },
-    {
-      "nome": "xuxuzinho",
-      "nivel": "",
-      "dataEntrevista": "2022-11-11T19:27",
-      "email": "",
-      "id": 15
+      "nascimento": "2022-02-12",
+      "pretencao": "5000000000000",
+      "vaga": "Desenvolvedor Cloud",
+      "descri": "Eu sou foda",
+      "sql": 5,
+      "lg": 5,
+      "en": 5,
+      "id": 1,
+      "softSkills": "Bora Bill",
+      "hardSkills": "Bora Fi Do Bill",
+      "salario": "Senior",
+      "status": "Aprovado"
     }
   ],
   "vagas": [
-    {}
+    {
+      "nomeVaga": "teste 5",
+      "localidade": "Recife",
+      "tempoAlocacao": "2022-11-14",
+      "descricaoVaga": "",
+      "idioma": "",
+      "skillTecnica": "",
+      "id": 5
+    },
+    {
+      "nomeVaga": "testeeeee",
+      "localidade": "Recife",
+      "tempoAlocacao": "2022-11-02",
+      "descricaoVaga": "",
+      "idioma": "",
+      "skillTecnica": "",
+      "id": 6
+    },
+    {
+      "nomeVaga": "Igor vinicius da silva Nascimento",
+      "localidade": "Recife",
+      "tempoAlocacao": "2022-11-22",
+      "descricaoVaga": "",
+      "idioma": "",
+      "skillTecnica": "",
+      "id": 7
+    },
+    {
+      "nomeVaga": "criar vaga",
+      "localidade": "Recife",
+      "tempoAlocacao": "2022-11-10",
+      "descricaoVaga": "",
+      "idioma": "",
+      "skillTecnica": "",
+      "id": 8
+    },
+    {
+      "nomeVaga": "Pega a visao",
+      "localidade": "Recife",
+      "tempoAlocacao": "2022-11-17",
+      "descricaoVaga": "Angular",
+      "idioma": "Português",
+      "skillTecnica": "PL/SQL",
+      "id": 9
+    }
   ]
 }

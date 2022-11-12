@@ -3,14 +3,14 @@
     <div class="DivParaEndereco" id="Endereco">
       <div class="row g-3 ">
         <div class="col-sm-7 modalidadeVaga box">
-          <label for="form-control" id="LabelDoEndereco">Modalidade da Vaga</label>
-          <input [(ngModel)]="vaga.modalidade" name="modalidade" type="text" class="form-control"
-            placeholder="Modalidade da Vaga" aria-label="City" />
+          <label for="form-control" id="LabelDoEndereco">Nome da Vaga</label>
+          <input [(ngModel)]="vaga.nomeVaga" name="nomeVaga" type="text" class="form-control"
+            placeholder="Nome da Vaga" aria-label="City" />
         </div>
         <div class="col-sm localidade box">
           <label for="form-control" id="LabelDoEndereco">Localidade</label>
           <div>
-            <input type="text" class="form-control" placeholder="Localidade" aria-label="City" />
+            <input type="text" class="form-control" placeholder="Localidade" aria-label="City" [(ngModel)]="vaga.localidade" name="localidade"/>
 
           </div>
         </div>
@@ -18,7 +18,7 @@
           <label for="form-control" id="LabelDoEndereco">Tempo de Alocação</label>
           <div>
 
-            <input type="date" class="form-control" id="inputCity" />
+            <input type="date" class="form-control" id="inputCity" [(ngModel)]="vaga.tempoAlocacao" name="tempoAlocacao"/>
 
           </div>
         </div>
@@ -26,7 +26,7 @@
           <label for="inputZip">Descrição da Vaga</label>
 
           <textarea class="form-control" placeholder="Descrição da Vaga" id="exampleFormControlTextarea1"
-            rows="3" ></textarea>
+            rows="3" [(ngModel)]="vaga.descricaoVaga" name="descricaoVaga" ></textarea>
         </div>
 
         <div class="idioma box">
@@ -52,7 +52,7 @@
           <label for="form-control" id="LabelDoEndereco">Skill Técnica</label>
           <div class="input-group mb-3">
             <button class="btn btn-outline-secondary" type="button">Adicionar Skill Técnico</button>
-            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon" [(ngModel)]="vaga.skillTecnica" name="skillTecnica">
               <option>SQL</option>
               <option>PL/SQL</option>
               <option>AWS</option>

@@ -1,4 +1,6 @@
+import { CadastroVagasService } from './../cadastro-vagas.service';
 import { Component, OnInit } from '@angular/core';
+import { CadastroVagas } from '../cadastroVagas.model';
 
 @Component({
   selector: 'app-ler-vagas',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LerVagasComponent implements OnInit {
 
-  constructor() { }
+  vagas?: CadastroVagas[]
+
+  constructor(private cadastroServico: CadastroVagasService) { }
 
   ngOnInit(): void {
+    
+    this.cadastroServico.lerVaga().subscribe(vagas =>{
+      this.vagas = vagas
+    })
+    
   }
 
 }

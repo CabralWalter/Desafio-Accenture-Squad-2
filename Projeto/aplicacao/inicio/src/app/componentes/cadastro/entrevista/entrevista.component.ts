@@ -1,3 +1,4 @@
+import { Entrevista } from './../entrevista.model';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Cadastro } from '../cadastro.model';
@@ -11,10 +12,15 @@ import { CadastroService } from '../cadastro.service';
 export class EntrevistaComponent implements OnInit {
   candidato: Cadastro = {
     nome: '',
-    nivel: '',
     dataEntrevista: '',
-    email:''
+    softSkills: '',
+    hardSkills: '',
+    nivel: '',
+    salario: '',
+    status:'',
   }
+
+
 
   constructor(private cadastroServico: CadastroService, private router: Router, private route: ActivatedRoute) { }
 
@@ -32,3 +38,6 @@ export class EntrevistaComponent implements OnInit {
     });
   }
 }
+
+
+

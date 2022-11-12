@@ -27,7 +27,7 @@ export class CadastroDeletarComponent implements OnInit {
   }
 
   deletarCadastro(){
-this.cadastroService.deletarCadastro(`${this.candidato.id}`).subscribe(()=>{
+      this.cadastroService.deletarCadastro(`${this.candidato.id}`).subscribe(()=>{
       this.cadastroService.mensagemSucesso("Cadastro excluido com Sucesso");
       this.router.navigate(['/cadastrar']);
     })
