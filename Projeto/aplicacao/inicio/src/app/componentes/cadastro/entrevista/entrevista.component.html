@@ -9,16 +9,20 @@
         <input class="info" id="nome" [value]="candidato.nome" name="nome" disabled /> 
     </div>
     <div class="skills">
-        <textarea class="skill" cols="30" rows="8" placeholder="Soft Skills" wrap="hard"></textarea>
-        <textarea class="skill" cols="30" rows="8" placeholder="Skills Técnicas" wrap="hard"></textarea>
+        <textarea class="skill" cols="30" rows="8" placeholder="Soft Skills" wrap="hard" [(ngModel)]="candidato.softSkills" name="sofSkills"></textarea>
+        <textarea class="skill" cols="30" rows="8" placeholder="Skills Técnicas" wrap="hard" [(ngModel)]="candidato.hardSkills" name="hardSkills"></textarea>
     </div>
 
     <div class="proposto">
-        <textarea class="propor" cols="30" rows="1" placeholder="Nível Proposto"></textarea>
+        <textarea class="propor" cols="30" rows="1" placeholder="Nível Proposto" [(ngModel)]="candidato.nivel" name="nivel"></textarea>
 
-        <textarea class="propor" cols="30" rows="1" placeholder="Salário Proposto"></textarea>
+        <select class="proporNivel" cols="30" rows="1" placeholder="Salário Proposto" [(ngModel)]="candidato.salario" name="salario">
+            <option selected>Junior</option>
+            <option>Pleno</option>
+            <option>Senior</option>
+        </select>
 
-        <select id="proporStatus" class="form-select" cols="30" rows="1" placeholder="Status">
+        <select id="proporStatus" class="form-select" cols="30" rows="1" placeholder="Status" [(ngModel)]="candidato.status" name="status">
         <option selected>A Entrevista</option>
         <option>Aprovado</option>
         <option>Contratado</option>

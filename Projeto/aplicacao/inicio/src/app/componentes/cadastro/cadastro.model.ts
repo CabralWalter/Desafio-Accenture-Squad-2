@@ -17,5 +17,9 @@ export interface Cadastro{
     sql?: String;
     lg?: String;
     en?: String;
-
+    softSkills?: String,
+    hardSkills?: String,
+    nivelPropsoto?: String,
+    salario?: String,
+    status?:String,
 }
