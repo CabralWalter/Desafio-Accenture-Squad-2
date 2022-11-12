@@ -47,11 +47,14 @@
     margin: 20px;
   }
 
-  @media (max-width:1750px) {
+  @media (max-width:1780px) {
     .cartao {
     margin: 25px;
-    justify-content: flex-start;
+    
     } 
+    .caixa {
+      justify-content: flex-start;
+    }
  }
 
   @media (max-width:1444px) {
