@@ -1,13 +1,11 @@
 * {
   color: black;
-    margin: 20px;
-
+  margin: 20px;
   }
   .caixa{
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
   }
   .cartao {
   width: 300px;

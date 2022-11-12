@@ -32,7 +32,7 @@
       <div class="row g-3">
         <label for="form-control" id="LabelDoEndereco">Endereço</label>
         <div class="col-sm-7">
-          <input
+          <input [(ngModel)]="candidato.pais" name="pais"
             type="text"
             class="form-control"
             placeholder="País"
@@ -40,7 +40,7 @@
           />
         </div>
         <div class="col-sm">
-          <select id="inputState" class="form-select">
+          <select id="inputState" class="form-select" [(ngModel)]="candidato.estado" name="estado">
             <option selected>Estado..</option>
             <option>AC</option>
             <option>AL</option>
@@ -71,7 +71,7 @@
           </select>
         </div>
         <div class="col-sm-7">
-          <input
+          <input [(ngModel)]="candidato.cidade" name="cidade"
             type="text"
             class="form-control"
             placeholder="Cidade"
@@ -79,7 +79,7 @@
           />
         </div>
         <div class="col-sm">
-          <input
+          <input [(ngModel)]="candidato.bairro" name="bairro"
             type="text"
             class="form-control"
             placeholder="Bairro"
@@ -90,21 +90,21 @@
     </div>
     <div class="DivTelefone boxEntrada">
         <label for="inputZip">Numero</label>
-        <input type="tel" placeholder="+5519XXXXYYYY" class="form-control"/>
+        <input type="tel" placeholder="+5519XXXXYYYY" class="form-control" [(ngModel)]="candidato.numero1" name="numero1"/>
         <label for="inputZip">Numero</label>
-        <input type="tel" placeholder="+55119XXXXYYYY" class="form-control"/>
+        <input type="tel" placeholder="+55119XXXXYYYY" class="form-control"[(ngModel)]="candidato.numero2" name="numero2"/>
     </div>
     <div class="col-md-6" class="DivNascimento boxEntrada">
       <label for="inputCity" class="form-label">Nascimento</label>
-      <input type="date" class="form-control" id="inputCity" />
+      <input type="date" class="form-control" id="inputCity" [(ngModel)]="candidato.nascimento" name="nascimento"/>
       <br>
         <label for="formFileSm" class="form-label">Anexar Documento Curricular</label>
         <input class="form-control form-control-sm" id="formFileSm" type="file">
     </div>
     <div class="col-md-6" class="DivSalario boxEntrada">
       <label for="inputEmail4" class="form-label">Pretensão Salarial</label>
-      <input
-        type="email"
+      <input  [(ngModel)]="candidato.pretencao" name="pretencao"
+        type="text"
         class="form-control"
         id="inputEmail4"
         placeholder="R$"
@@ -116,7 +116,7 @@
           <option>Senior</option>
         </select>
           <label for="inputState" class="form-label">Vaga</label>
-          <select id="inputState" class="form-select">
+          <select id="inputState" class="form-select" [(ngModel)]="candidato.vaga" name="vaga">
             <option selected>Programador Web..</option>
             <option>Programador Frontend</option>
             <option>Programador Backend</option>
@@ -145,7 +145,7 @@
     <div class="NotasEntrada boxEntrada" id="NotasEntradaDiv">
       <p>Notas de Avaliação</p>
       <label for="customRange3" class="form-label">SQL</label>
-      <input
+      <input [(ngModel)]="candidato.sql" name="sql"
         type="range"
         class="form-range"
         min="0"
@@ -154,7 +154,7 @@
         id="customRange3"
       />
       <label for="customRange3" class="form-label">LG</label>
-      <input
+      <input [(ngModel)]="candidato.lg" name="lg"
         type="range"
         class="form-range"
         min="0"
@@ -163,7 +163,7 @@
         id="customRange3"
       />
       <label for="customRange3" class="form-label">EN</label>
-      <input
+      <input [(ngModel)]="candidato.en" name="en"
         type="range"
         class="form-range"
         min="0"
@@ -175,7 +175,7 @@
     <div class="DescricaoCandidato boxEntrada" id="CandidatoDescricao">
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Descrição Técnica</label>
-        <textarea
+        <textarea [(ngModel)]="candidato.descri" name="descri"
           class="form-control"
           id="exampleFormControlTextarea1"
           rows="9"

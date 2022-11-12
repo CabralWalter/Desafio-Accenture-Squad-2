@@ -1,3 +1,4 @@
+import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vagas.component';
 import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar-vaga.component';
 import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
 import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
@@ -63,6 +64,10 @@ const routes: Routes = [
 {
   path: "cadastroVagas/criar-vaga",
   component: CriarVagaComponent
+},
+{
+  path: "cadastroVagas/edt-vagas/:id",
+  component: EdtVagasComponent
 }
 ];
 

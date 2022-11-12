@@ -12,10 +12,23 @@ export class PreCadastroComponent implements OnInit {
 
 
   candidato: Cadastro = {
-    nome: '',
-    nivel: '',
-    dataEntrevista: '',
-    email:''
+    nome:'',
+    email:'',
+    dataEntrevista:'',
+    numero1:'',
+    numero2:'',
+    pais:'',
+    estado:'',
+    cidade:'',
+    bairro:'',
+    nivel:'',
+    nascimento:'',
+    pretencao:'',
+    vaga:'',
+    descri:'',
+    sql:'',
+    lg:'',
+    en:''
   }
 
   constructor(private cadastroService: CadastroService, private router: Router) { }

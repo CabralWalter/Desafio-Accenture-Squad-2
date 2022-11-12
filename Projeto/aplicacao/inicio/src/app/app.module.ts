@@ -39,6 +39,7 @@ import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar
 import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevista.component';
 import { NgChartsModule } from 'ng2-charts';
 import { LerVagasComponent } from './componentes/cadastroVagas/ler-vagas/ler-vagas.component';
+import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vagas.component';
 
 
 
@@ -63,7 +64,8 @@ import { LerVagasComponent } from './componentes/cadastroVagas/ler-vagas/ler-vag
     CadastroDeletarComponent,
     CriarVagaComponent,
     EntrevistaComponent,
-    LerVagasComponent
+    LerVagasComponent,
+    EdtVagasComponent
   ],
   imports: [
     BrowserModule,

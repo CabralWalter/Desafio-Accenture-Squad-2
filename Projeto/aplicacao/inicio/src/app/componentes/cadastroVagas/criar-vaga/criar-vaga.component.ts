@@ -10,13 +10,15 @@ import { CadastroVagas } from '../cadastroVagas.model';
 })
 export class CriarVagaComponent implements OnInit {
   vaga: CadastroVagas = {
-    nomeVaga:'',
-    modalidade:'',
-    localidade:'',
-    idioma:'',
+    nomeVaga: '',
+    localidade: '',
+    tempoAlocacao: '',
+    descricaoVaga: '',
+    idioma: '',
+    skillTecnica: ''
 
   }
-  constructor(private cadastroVagaService: CadastroVagasService ,private router: Router) { }
+  constructor(private cadastroVagaService: CadastroVagasService,private router: Router) { }
 
   
 

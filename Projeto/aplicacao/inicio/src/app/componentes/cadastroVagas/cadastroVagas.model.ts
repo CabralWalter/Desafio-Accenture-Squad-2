@@ -1,6 +1,6 @@
 export interface CadastroVagas{
+    id?: number | undefined;
     nomeVaga?: String,
-    modalidade?: String,
     localidade?: String,
     tempoAlocacao?: String,
     descricaoVaga?: String,
