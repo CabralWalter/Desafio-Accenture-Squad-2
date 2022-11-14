@@ -1,44 +1,44 @@
 <mat-sidenav-container class="container1">
     <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
         <mat-nav-list class="nav-list navegador">
-            <button class="default freature">
-                <a class="mat-list-item fre def" routerLink="/">
+            <button class="default freature" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active-link">
+                <a class="mat-list-item fre def" >
                     Início
                 </a>
             </button>
 
-            <button class="freature Entrevistar">
-                <a class="mat-list-item ent" routerLink="/cadastrar">
+            <button class="freature Entrevistar" routerLink="/cadastrar" routerLinkActive="active-link-ent">
+                <a class="mat-list-item ent" >
                     Entrevistar
                 </a>
             </button>
 
-            <button class="freature aprovados">
-                <a class="mat-list-item" routerLink="/omhold">
+            <button class="freature aprovados" routerLink="/omhold" routerLinkActive="active-link-ap">
+                <a class="mat-list-item ap" >
                     Aprovados
                 </a>
             </button>
 
-            <button class="freature contratados">
-                <a class="mat-list-item" routerLink="/contratados">
+            <button class="freature contratados" routerLink="/contratados" routerLinkActive="active-link-cont">
+                <a class="mat-list-item con" >
                     Contratados
                 </a>
             </button>
 
-            <button class="freature inapto">
-                <a class="mat-list-item in" routerLink="/inapto">
+            <button class="freature inapto" routerLink="/inapto" routerLinkActive="active-link-inap">
+                <a class="mat-list-item in" >
                     Inapto
                 </a>
             </button>
 
-            <button class="default">
-                <a class="mat-list-item def" routerLink="/vagas">
+            <button class="default" routerLink="/vagas" routerLinkActive="active-link-vag">
+                <a class="mat-list-item def" >
                     Vagas
                 </a>
             </button>
 
-            <button class="default">
-                <a class="mat-list-item def" routerLink="/analise">
+            <button class="default" routerLink="/analise" routerLinkActive="active-link-an">
+                <a class="mat-list-item def" >
                     Análise
                 </a>
             </button>

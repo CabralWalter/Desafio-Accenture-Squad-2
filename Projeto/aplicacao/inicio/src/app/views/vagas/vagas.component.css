@@ -1,4 +1,7 @@
 button{
+    width: 200px;
+    height: 50px;
+    font-size: large;
     margin-top: 3rem;
     margin-bottom: 2rem;
     margin-left: 0.5rem;
