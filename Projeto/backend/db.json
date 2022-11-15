@@ -23,6 +23,30 @@
       "hardSkills": "Bora Fi Do Bill",
       "salario": "Senior",
       "status": "Aprovado"
+    },
+    {
+      "nome": "diegoigor2001@gmail.com",
+      "email": "diegoigor2001@gmail.com",
+      "dataEntrevista": "2022-11-17T22:03",
+      "numero1": "",
+      "numero2": "",
+      "pais": "Brasil",
+      "estado": "PE",
+      "cidade": "Recife",
+      "bairro": "",
+      "nivel": "Plenor",
+      "nascimento": "",
+      "pretencao": "",
+      "vaga": "Analista de Dados",
+      "descri": "",
+      "sql": "",
+      "lg": "",
+      "en": "",
+      "id": 2,
+      "softSkills": "funalo",
+      "hardSkills": "sasdsdassa",
+      "salario": "Junior",
+      "status": "Inapto"
     }
   ],
   "vagas": [
@@ -40,7 +64,7 @@
       "localidade": "Recife",
       "tempoAlocacao": "2022-11-02",
       "descricaoVaga": "",
-      "idioma": "",
+      "idioma": "Francês",
       "skillTecnica": "",
       "id": 6
     },
@@ -61,15 +85,6 @@
       "idioma": "",
       "skillTecnica": "",
       "id": 8
-    },
-    {
-      "nomeVaga": "Pega a visao",
-      "localidade": "Recife",
-      "tempoAlocacao": "2022-11-17",
-      "descricaoVaga": "Angular",
-      "idioma": "Português",
-      "skillTecnica": "PL/SQL",
-      "id": 9
     }
   ]
 }
