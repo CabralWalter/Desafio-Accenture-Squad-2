@@ -2,23 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,400&display=swap');
 
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .home .title{
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 1.5rem;
     line-height: 1.2;
     font-family: 'Barlow', sans-serif;
     
 }
 
 .home .subtitle{
-    font-size: 1.1em;
+    padding-top: 2%;
+    font-size: 100%;
     font-family: 'Barlow', sans-serif;
 }
 
 .home{
-    border-radius: 10px;
-    margin-top: -1%;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
 }

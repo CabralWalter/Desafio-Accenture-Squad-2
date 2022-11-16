@@ -1,9 +1,8 @@
 .header{
     width: 100%;
     height: 15%;
-    padding: 0.5% 0 0 2%;
-    background-color: #1F1F1F;
-
+    background-color: #424242;
+    box-shadow: 0 0 5px white;
 }
 
 .header a {
@@ -13,19 +12,18 @@
 }
 
 .header .logo {
-    width: 5rem;
+    width: 3.5rem;
+    padding: 5%;
+    margin-top: 2%  ;
 }
 
 .header .title-group i {
-    padding-right: 5px;
 }
 
 .header mat-elevation-z4{
-    position: fixed;
 }
 
 .header mat-elevation-z4{
-    position: fixed;
 }
 
 button{
