@@ -3,68 +3,64 @@
 
 * {
   margin: 0;
-  padding: 0.5%;
+  padding: 0;
   box-sizing: border-box;
-  background-color: transparent;
 }
 
 .container1 {
   overflow-y: scroll;
   background-color: transparent;
-  border-radius: 10px;
+  border: none;
 }
 
 .navegador {
   background-color: transparent;
-  border-radius: 10px;
-
 }
 
 button {
-  box-shadow: 2px 2px 8px 5px rgba(227, 228, 219, 0.31);
+  width: 90%;
+  height: 10%;
   background-color: #424242;
-  color: white;
-
+  border: none;
+  margin-top: 10%;
 }
 
 a {
-  display: flex;
   background-color: transparent;
+  border: none;
 }
 
 .sidenav {
-  width: 10%;
-  background-color: transparent;
+  width: 8%;
+  height: 50%;
+  background: transparent;
+  background-color: #424242;
+  border-radius: 10px;
+  padding: 0.5% 0 0 0.5%;
+  margin: 0.25%;
+  box-shadow: 2px 2px 8px 4px rgba(31, 31, 31, 0.09);
 }
+
 
 .sidenav i {
-  background-color: transparent;
-}
+} 
 
 .nav-list {
-  display: flex;
-  background-color: transparent;
-  flex-direction: column;
-}
+} 
 
-.nav-list i {
-  background-color: transparent;
-}
 
 .mat-list-item {
-  margin-top: 12%;
-  font-size: 1.3rem;
   color: #f1f1f1;
+  font-family: 'Barlow', sans-serif;
+  border: none;
+  text-decoration: none;
 }
 
 .nav-list {
-  background-color: #f1f1f1;
-  background-color: transparent;
 }
 
-.sidenav {
-  background: transparent;
 
+.sidenav {
 }
 
 /* .mat-drawer-container {
@@ -74,7 +70,7 @@ a {
   display: contents;
 } */
 
-.default:hover {
+/* .default:hover {
   transition: 1.2s;
   background-color: #a100ff;
 }
@@ -152,7 +148,7 @@ a {
 .active-link-an > a {
   background-color: #a100ff;
   color: white;
-}
+} */
 
 /*Responsividade 1880px*/
 @media (max-width: 1880px) {
