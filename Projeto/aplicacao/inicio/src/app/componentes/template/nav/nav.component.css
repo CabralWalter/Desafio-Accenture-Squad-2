@@ -31,23 +31,15 @@ a {
 }
 
 .sidenav {
-  width: 8%;
+  width: 10%;
   height: 50%;
   background: transparent;
   background-color: #424242;
   border-radius: 10px;
   padding: 0.5% 0 0 0.5%;
-  margin: 0.25%;
+  margin: 1%;
   box-shadow: 2px 2px 8px 4px rgba(31, 31, 31, 0.09);
 }
-
-
-.sidenav i {
-} 
-
-.nav-list {
-} 
-
 
 .mat-list-item {
   color: #f1f1f1;
@@ -55,6 +47,22 @@ a {
   border: none;
   text-decoration: none;
 }
+
+.def{
+  opacity: 1;
+}
+
+.def:hover{
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.sidenav i {
+} 
+
+.nav-list {
+} 
+
 
 .nav-list {
 }
@@ -68,51 +76,10 @@ a {
   z-index: 1;
   -webkit-overflow-scrolling: touch;
   display: contents;
-} */
+}  */
 
-/* .default:hover {
-  transition: 1.2s;
-  background-color: #a100ff;
-}
-.def:hover {
-  color: #f1f1f1;
-}
 
-.Entrevistar:hover {
-  transition: 1.2s;
-  background-color: #dced31;
-}
-.ent:hover {
-  color: #f1f1f1;
-}
-
-.aprovados:hover {
-  transition: 1.2s;
-  background-color: #f47349;
-  color: #f1f1f1;
-}
-.ap:hover {
-  color: #f1f1f1;
-}
-
-.contratados:hover {
-  transition: 1.2s;
-  background-color: #0cce6b;
-  color: #f1f1f1;
-}
-.con:hover {
-  color: #f1f1f1;
-}
-
-.inapto:hover {
-  transition: 1.2s;
-  background-color: #d70b0b;
-}
-.in:hover {
-  color: #f1f1f1;
-}
-
-.active-link,
+/* .active-link,
 .active-link > a {
   background-color: #a100ff;
   color: white;
