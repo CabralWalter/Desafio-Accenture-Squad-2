@@ -78,44 +78,17 @@ a {
   display: contents;
 }  
 
-
 .active-link,
 .active-link > a {
-  background-color: #a100ff;
-  color: white;
+  color: #A07EA0;
+  transform: scale(1.1);
 }
 
-.active-link-ent,
-.active-link-ent > a {
-  background-color: #a100ff;
-  color: #313131;
+.active-link-def,
+.active-link-def > a {
+  color: #A07EA0;
+  transform: scale(1.1);
 }
-.active-link-ap,
-.active-link-ap > a {
-  background-color: #a100ff;
-  color: white;
-}
-.active-link-cont,
-.active-link-cont > a {
-  background-color: #a100ff;
-  color: white;
-}
-.active-link-inap,
-.active-link-inap > a {
-  background-color: #a100ff;
-  color: white;
-}
-
-.active-link-vag,
-.active-link-vag > a {
-  background-color: #a100ff;
-  color: white;
-}
-.active-link-an,
-.active-link-an > a {
-  background-color: #a100ff;
-  color: white;
-} 
 
 /*Responsividade 1880px*/
 @media (max-width: 1880px) {
