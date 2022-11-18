@@ -5,5 +5,4 @@ export interface Entrevista{
     nivel?: String,
     salario?: String,
     status?: String,
-    
 }
