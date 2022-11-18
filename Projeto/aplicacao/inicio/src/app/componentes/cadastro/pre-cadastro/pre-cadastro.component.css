@@ -67,10 +67,36 @@
 .BtnCadastrarCancelar{
   display: flex;
   justify-content: flex-end;
-  
   margin-left: 47%;
   width: 50%;
 }
+
+button{
+  padding: 1rem;
+  margin-left: 1rem;
+  background-color: #424242;
+  border: none;
+}
+.cad{
+  opacity: 1;
+}
+
+.cad:hover{
+  opacity: 0.8;
+  background-color: #231825;
+  transition: 0.5s;
+}
+
+.can{
+  opacity: 1;
+}
+
+.can:hover{
+  opacity: 0.8;
+  background-color:darkred;
+  transition: 0.5s;
+}
+
 
 label {
   color: #000000;
@@ -78,9 +104,4 @@ label {
 
 p {
   color: black;
-}
-
-button{
-  padding: 1rem;
-  margin-left: 1rem;
 }
