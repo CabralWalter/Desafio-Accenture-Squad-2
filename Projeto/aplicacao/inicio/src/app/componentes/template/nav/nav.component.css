@@ -20,7 +20,7 @@
 button {
   width: 90%;
   height: 10%;
-  background-color: #424242;
+  background-color: #403D4E;
   border: none;
   margin-top: 10%;
 }
@@ -34,7 +34,7 @@ a {
   width: 10%;
   height: 55%;
   background: transparent;
-  background-color: #424242;
+  background-color: #403D4E;
   border-radius: 10px;
   padding: 0.5% 0 0 0.5%;
   margin: 1%;
@@ -81,13 +81,13 @@ a {
 .active-link,
 .active-link > a {
   color: #A07EA0;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .active-link-def,
 .active-link-def > a {
   color: #A07EA0;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /*Responsividade 1880px*/

@@ -1,13 +1,10 @@
 .header{
     width: 100%;
     height: 15%;
-    background: linear-gradient(-90deg, #9464d2 0, #584397 25%, #1f1f59 50%, #000021 75%, #000000 100%) no-repeat;
+    background-color: #403D4E;
     box-shadow: 0 0 5px white;
     background-size: 150% 150%;
     display: flex;
-
-
-    animation: headeranime  8s ease infinite;
 }
 
 .header a {
@@ -18,8 +15,10 @@
 
 .header .logo {
     width: 3.5rem;
-    padding: 5%;
-    margin-top: 2%  ;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 70%;
+    
 }
 
 
