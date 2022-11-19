@@ -14,15 +14,15 @@
     </div>
 
     <div class="proposto">
-        <textarea class="propor" cols="30" rows="1" placeholder="Nível Proposto" [(ngModel)]="candidato.nivel" name="nivel"></textarea>
-
+        <label>Definir Nivel do Candidato</label>
         <select class="proporNivel" cols="30" rows="1" placeholder="Salário Proposto" [(ngModel)]="candidato.salario" name="salario">
             <option selected>Junior</option>
             <option>Pleno</option>
             <option>Senior</option>
         </select>
 
-        <select id="proporStatus" class="form-select" cols="30" rows="1" placeholder="Status" [(ngModel)]="candidato.status" name="status">
+        <label>Definir Status do Candidato</label>
+        <select id="proporStatus" cols="30" rows="1" placeholder="Status" [(ngModel)]="candidato.status" name="status">
         <option selected>A Entrevista</option>
         <option>Aprovado</option>
         <option>Contratado</option>

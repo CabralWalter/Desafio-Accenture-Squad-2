@@ -89,8 +89,8 @@
       </div>
     </div>
     <div class="DivTelefone boxEntrada">
-        <label for="inputZip">Numero</label>
-        <input type="tel" placeholder="+5519XXXXYYYY" class="form-control" [(ngModel)]="candidato.numero1" name="numero1"/>
+        <label for="inputZip">CPF</label>
+        <input type="tel" placeholder="XXX-XXX-XXX-XX" class="form-control" [(ngModel)]="candidato.numero1" name="numero1"/>
         <label for="inputZip">Numero</label>
         <input type="tel" placeholder="+55119XXXXYYYY" class="form-control"[(ngModel)]="candidato.numero2" name="numero2"/>
     </div>
@@ -183,8 +183,8 @@
       </div>
     </div>
     <div class="BtnCadastrarCancelar">
-      <button type="button" class="btn btn-primary btn-lg" id="btn1" (click)=" criarCadastro()">Cadastrar</button>
-      <button type="button" class="btn btn-secondary btn-lg" id="btn2" (click)=" cancelar()">Cancelar</button>
+      <button type="button" class="btn btn-primary btn-lg cad" id="btn1" (click)=" criarCadastro()">Cadastrar</button>
+      <button type="button" class="btn btn-secondary btn-lg can" id="btn2" (click)=" cancelar()">Cancelar</button>
     </div>
   <!-- JavaScript Bundle with Popper -->
   <script
