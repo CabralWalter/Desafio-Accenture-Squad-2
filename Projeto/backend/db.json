@@ -21,7 +21,7 @@
       "id": 1,
       "softSkills": "Bora Bill",
       "hardSkills": "Bora Fi Do Bill",
-      "salario": "Senior",
+      "salario": "Pleno",
       "status": "Aprovado"
     },
     {
@@ -47,6 +47,30 @@
       "hardSkills": "sasdsdassa",
       "salario": "Junior",
       "status": "Inapto"
+    },
+    {
+      "nome": "eu sou mais jesus",
+      "email": "diegoigor2001@gmail.com",
+      "dataEntrevista": "2022-11-19T20:59",
+      "numero1": "12532548898",
+      "numero2": "81 984783558",
+      "pais": "Brasil",
+      "estado": "PE",
+      "cidade": "Recife",
+      "bairro": "Ibura",
+      "nivel": "Plenor",
+      "nascimento": "2022-11-19",
+      "pretencao": "5000000000000",
+      "vaga": "Desenvolvedor AngularJS",
+      "descri": "",
+      "sql": "",
+      "lg": 2,
+      "en": 4,
+      "id": 3,
+      "softSkills": "passou",
+      "hardSkills": "passou",
+      "salario": "Senior",
+      "status": "Contratado"
     }
   ],
   "vagas": [
