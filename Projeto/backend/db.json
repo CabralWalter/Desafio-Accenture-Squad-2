@@ -75,51 +75,6 @@
   ],
   "vagas": [
     {
-      "nomeVaga": "teste 5",
-      "localidade": "Recife",
-      "tempoAlocacao": "2022-11-14",
-      "descricaoVaga": "",
-      "idioma": "",
-      "skillTecnica": "",
-      "id": 5
-    },
-    {
-      "nomeVaga": "testeeeee",
-      "localidade": "Recife",
-      "tempoAlocacao": "2022-11-02",
-      "descricaoVaga": "",
-      "idioma": "Francês",
-      "skillTecnica": "",
-      "id": 6
-    },
-    {
-      "nomeVaga": "Igor vinicius da silva Nascimento",
-      "localidade": "Recife",
-      "tempoAlocacao": "2022-11-22",
-      "descricaoVaga": "",
-      "idioma": "",
-      "skillTecnica": "",
-      "id": 7
-    },
-    {
-      "nomeVaga": "criar vaga",
-      "localidade": "Recife",
-      "tempoAlocacao": "2022-11-10",
-      "descricaoVaga": "",
-      "idioma": "",
-      "skillTecnica": "",
-      "id": 8
-    },
-    {
-      "nomeVaga": "Igor vinicius da silva Nascimento",
-      "localidade": "Recife",
-      "tempoAlocacao": "",
-      "descricaoVaga": "",
-      "idioma": "",
-      "skillTecnica": "",
-      "id": 9
-    },
-    {
       "nomeVaga": "Igor vinicius da silva Nascimento",
       "localidade": "Recife",
       "tempoAlocacao": "",
@@ -127,6 +82,33 @@
       "idioma": "",
       "skillTecnica": "",
       "id": 10
+    },
+    {
+      "nomeVaga": "Programador Web Junior",
+      "localidade": "Recife",
+      "tempoAlocacao": "",
+      "descricaoVaga": "Desenvolver páginas Web",
+      "idioma": "Inglês",
+      "skillTecnica": "SQL",
+      "id": 11
+    },
+    {
+      "nomeVaga": "Programador Web Senior",
+      "localidade": "Alagoas",
+      "tempoAlocacao": "2000-02-27",
+      "descricaoVaga": "dEV aPLICCATIONS",
+      "idioma": "Inglês",
+      "skillTecnica": "PL/SQL",
+      "id": 12
+    },
+    {
+      "nomeVaga": "Programador Java",
+      "localidade": " Amazonas",
+      "tempoAlocacao": "1988-01-22",
+      "descricaoVaga": "Construinti p minecraft",
+      "idioma": "",
+      "skillTecnica": "",
+      "id": 13
     }
   ]
 }

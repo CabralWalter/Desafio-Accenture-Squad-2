@@ -107,5 +107,7 @@ button {
   font-weight: 300;
   transition: 0.5s;
   opacity: 1;
+  font-weight: bold;
+
   
 }
