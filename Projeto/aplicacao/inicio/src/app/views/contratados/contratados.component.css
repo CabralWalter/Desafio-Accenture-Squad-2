@@ -12,8 +12,7 @@ font-family: 'Barlow', sans-serif;
 }
 
 .back {
-  height: 92%;
-  width: 80vw;
+  
   margin-left: 5%;
   margin-top: 3%;
   box-shadow: 2px 2px 8px 4px rgba(47, 36, 44, 0.28);
@@ -107,4 +106,20 @@ button {
 
 .icones{
   color: #4E87B4;
+}
+
+@media (max-width: 500px) {
+
+  #row1 {
+    flex-direction: column;
+  }
+
+  #datadiv, #nome {
+    width: 100%;
+
+  }
+
+  .col-6 {
+    width: 100%;
+  }
 }
