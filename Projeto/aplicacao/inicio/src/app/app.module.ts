@@ -22,7 +22,6 @@ import { OmholdComponent } from './views/omhold/omhold.component';
 import { ContratadosComponent } from './views/contratados/contratados.component';
 import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
-import { AnaliseComponent } from './views/analise/analise.component';
 import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import {HttpClientModule} from '@angular/common/http';
@@ -57,7 +56,6 @@ import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vag
     ContratadosComponent,
     InaptoComponent,
     VagasComponent,
-    AnaliseComponent,
     PreCadastroComponent,
     CadastroLerComponent,
     CadastroAtualizarComponent,
