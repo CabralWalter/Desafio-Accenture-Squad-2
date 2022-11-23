@@ -11,28 +11,6 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    new Chart("myChart" , {
-      type: 'polarArea',
-    data: {
-        labels: ['Abertas', 'Confirmadas'],
-        datasets: [{
-            label: 'Vagas',
-            data: [26, 29],
-            backgroundColor: [
-                'rgba(54, 162, 235, 0.5)',
-                'rgba(255, 206, 86, 0.5)',
-            ],
-            borderColor: [
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-       responsive: true
-    }
-    });
 
 
     new Chart("myChart02" , {
@@ -44,16 +22,15 @@ export class HomeComponent implements OnInit {
             label: 'Candidatos',
             data: [26, 29, 23, 15],
             backgroundColor: [
-                'rgb(255,255,0)',
-                'rgb(255, 165, 0)',
-                'rgb(0,255,0)',
-                'rgb(255,0,0)'
+              '#4e87b4',
+              '#4e87b4',
+              '#4e87b4',
+              '#4e87b4'
             ],
         }]
     },
     options: {
-       responsive: true,
-       indexAxis: 'y'
+       responsive: true
     },
     
     });

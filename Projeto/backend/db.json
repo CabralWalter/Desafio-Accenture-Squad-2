@@ -20,27 +20,9 @@
       "en": "",
       "id": 1,
       "salario": "Pleno",
-      "status": "Aprovado"
-    },
-    {
-      "nome": "Igor Nascimento",
-      "email": "diegoigor2001@gmail.com",
-      "dataEntrevista": "2022-11-21T02:03",
-      "numero1": "12532548898",
-      "numero2": "81 984783558",
-      "pais": "Brasil",
-      "estado": "PE",
-      "cidade": "Recife",
-      "bairro": "Ibura",
-      "nivel": "Junior...",
-      "nascimento": "2001-02-26",
-      "pretencao": "30000",
-      "vaga": "Programador Backend",
-      "descri": "",
-      "sql": 2,
-      "lg": 5,
-      "en": 1,
-      "id": 2
+      "status": "Aprovado",
+      "softSkills": "escrever",
+      "hardSkills": "java angular"
     }
   ],
   "vagas": [
