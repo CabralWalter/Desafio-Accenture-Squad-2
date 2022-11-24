@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -39,7 +39,7 @@ import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevist
 import { NgChartsModule } from 'ng2-charts';
 import { LerVagasComponent } from './componentes/cadastroVagas/ler-vagas/ler-vagas.component';
 import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vagas.component';
-
+import {  ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -80,9 +80,12 @@ import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vag
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    NgChartsModule
+    NgChartsModule,
+    ReactiveFormsModule,
+    BrowserModule
    
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })

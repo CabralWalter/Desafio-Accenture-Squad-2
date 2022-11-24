@@ -19,30 +19,28 @@
       "lg": 4.5,
       "en": "",
       "id": 1,
-      "salario": "Pleno",
+      "salario": "Junior",
       "status": "Aprovado",
-      "softSkills": "escrever",
-      "hardSkills": "java angular"
+      "softSkills": "A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real.",
+      "hardSkills": "A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real."
     }
   ],
   "vagas": [
     {
-      "nomeVaga": "Programador Web Junior",
+      "nomeVaga": "bora bill",
       "localidade": "Recife",
-      "tempoAlocacao": "2023-11-20",
-      "descricaoVaga": "",
-      "idioma": "Português",
-      "skillTecnica": "PL/SQL",
+      "tempoAlocacao": "2022-11-24",
+      "descricaoVaga": "teste",
+      "idioma": "Inglês",
+      "skillTecnica": [
+        "teste02"
+      ],
       "id": 1
-    },
+    }
+  ],
+  "tecnica": [
     {
-      "nomeVaga": "java developer",
-      "localidade": "Recife",
-      "tempoAlocacao": "2022-11-20",
-      "descricaoVaga": "",
-      "idioma": "Francês",
-      "skillTecnica": "PL/SQL",
-      "id": 2
+      "tecnica": "java"
     }
   ]
 }

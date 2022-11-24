@@ -1,3 +1,5 @@
+import { AnyCatcher } from "rxjs/internal/AnyCatcher";
+
 export interface CadastroVagas{
     id?: number | undefined;
     nomeVaga?: String,
@@ -5,5 +7,5 @@ export interface CadastroVagas{
     tempoAlocacao?: String,
     descricaoVaga?: String,
     idioma?: String,
-    skillTecnica?: String
+    skillTecnica: any[] 
 }
