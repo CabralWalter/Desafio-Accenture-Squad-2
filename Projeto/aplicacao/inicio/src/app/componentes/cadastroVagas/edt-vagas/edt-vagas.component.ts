@@ -3,7 +3,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CadastroVagasService } from '../cadastro-vagas.service';
 import { CadastroVagas } from '../cadastroVagas.model';
-import { Tecnica } from '../criar-vaga/tecnica.model';
+
 
 @Component({
   selector: 'app-edt-vagas',
@@ -37,11 +37,9 @@ export class EdtVagasComponent implements OnInit {
     this.form = new FormGroup({
       item: new FormControl('', Validators.required)
     })
-    console.log(this.cadastros)
   }
 
       criaItem(): void{
-  
         this.vaga.skillTecnica.push(this.form.value.item)
         this.form.reset();
         this.cadastroServico.mensagemSucesso('Operação realizada com sucesso');

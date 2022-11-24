@@ -1,28 +1,26 @@
 {
   "candidatos": [
     {
-      "nome": "Ruan Rickelme Lucena Ramos",
-      "email": "ruanlucenaramos@gmail.com",
-      "dataEntrevista": "2022-11-01T12:03",
-      "numero1": "798.545.455-82",
-      "numero2": "8199654872001",
-      "pais": "Brazil",
-      "estado": "RJ",
-      "cidade": "Recife",
-      "bairro": "Cordeiro",
-      "nivel": "Junior...",
-      "nascimento": "2000-02-27",
-      "pretencao": "2500",
-      "vaga": "Desenvolvedor Go",
+      "nome": "teste",
+      "email": "",
+      "dataEntrevista": "2022-11-24T14:11",
+      "numero1": "",
+      "numero2": "",
+      "pais": "",
+      "estado": "",
+      "cidade": "",
+      "bairro": "",
+      "nivel": "",
+      "nascimento": "",
+      "pretencao": "",
+      "vaga": "",
       "descri": "",
-      "sql": 3,
-      "lg": 4.5,
+      "sql": "",
+      "lg": "",
       "en": "",
       "id": 1,
-      "salario": "Junior",
-      "status": "Aprovado",
-      "softSkills": "A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real.",
-      "hardSkills": "A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real."
+      "softSkills": "testinho",
+      "skillTecnica": []
     }
   ],
   "vagas": [
@@ -33,7 +31,8 @@
       "descricaoVaga": "teste",
       "idioma": "Inglês",
       "skillTecnica": [
-        "teste02"
+        "teste02",
+        "aaa"
       ],
       "id": 1
     }

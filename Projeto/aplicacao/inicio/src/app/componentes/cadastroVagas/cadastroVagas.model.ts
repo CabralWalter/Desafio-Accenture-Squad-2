@@ -1,4 +1,3 @@
-import { AnyCatcher } from "rxjs/internal/AnyCatcher";
 
 export interface CadastroVagas{
     id?: number | undefined;

@@ -26,7 +26,8 @@ export class CadastroAtualizarComponent implements OnInit {
     descri:'',
     sql:'',
     lg:'',
-    en:''
+    en:'',
+    skillTecnica:[]
   }
 
   constructor(private cadastroServico: CadastroService, private router: Router, private route: ActivatedRoute) { }
