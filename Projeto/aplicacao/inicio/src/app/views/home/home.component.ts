@@ -4,43 +4,32 @@ import { Chart } from 'node_modules/chart.js';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-
-
-    new Chart("myChart02" , {
+    new Chart('myChart02', {
       type: 'bar',
-      
-    data: {
+
+      data: {
         labels: ['A Entrevista', 'Aprovados', 'Contratados', 'Inaptos'],
-        datasets: [{
+        datasets: [
+          {
             label: 'Candidatos',
             data: [26, 29, 23, 15],
-            backgroundColor: [
-              '#4e87b4',
-              '#4e87b4',
-              '#4e87b4',
-              '#4e87b4'
-            ],
-        }]
-    },
-    options: {
-       responsive: true
-    },
-    
+            borderColor:['#F1F1F1'],
+            borderWidth: [1.5],
+            hoverBackgroundColor:['#8A2BE2', '#FFB627', '#63C035', '#FF1D15'],
+            hoverBorderColor:['#f2f2f2'],
+            backgroundColor: ['#892be21b', '#892be21b', '#892be21b', '#892be21b'],
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+      },
     });
-    
   }
-
 }
-
-
-
-
-
-
