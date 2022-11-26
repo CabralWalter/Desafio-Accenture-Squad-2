@@ -49,7 +49,7 @@
                 <option>Nativo</option>
               </select>
             </div>
-            <label for="form-control" id="LabelDoEndereco">Skill Técnica</label>
+            <label for="form-control" id="LabelDoEndereco" class="sktech">Skill Técnica</label>
             <div class="outer-wrap">
               <div class="inner-wrap">
                 <form [formGroup]="form">
@@ -60,7 +60,7 @@
                       text="#ref"
                       formControlName="item"
                     />
-                    <input type="submit" id="botao1"  (click)="criaItem()">
+                    <input type="submit" id="botao1"  (click)="criaItem()" class="btn-create">
                   </form>
                   <div [ngClass]="cadastros.length == 0 ? 'displayEmpty' : ''">
                     <ul  *ngFor="let item of cadastros; let i = index"
@@ -76,7 +76,7 @@
           <div class="BtnCadastrarCancelar">
             <button type="button" class="btn btn-primary btn-lg" id="btn1"
               (click)="autalizarVaga()">Atualizar</button>
-              <button type="button" class="btn btn-danger" id="btn2" (click)=" deletarCadastro()">Excluir</button>
+              <button type="button" class="btn btn-danger de" id="btn2" (click)=" deletarCadastro()">Excluir</button>
             <button type="button" class="btn btn-secondary btn-lg" id="btn3" (click)=" cancela()">Cancelar</button>
         </div>
           <!-- JavaScript Bundle with Popper -->

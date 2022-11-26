@@ -88,13 +88,13 @@ a {
 .active-link,
 .active-link > a {
   color: #A07EA0;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .active-link-def,
 .active-link-def > a {
   color: #A07EA0;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /*Responsividade 1880px

@@ -1,74 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,400&display=swap");
+
 * {
-    padding: 5px 10px 1rem 10px;
-    color:black;
-  }
-  
-  textarea{
-    resize:none;
-  }
-  
-  .caixa{
-    display: flex;
-  }
-  
-  .modalidadeVaga{
-    width: 45%;
-    margin-right: 4%;
-  }
-  
-  .localidade{
-    width: 26.50%;
-    margin-right: 1%
-  }
-  
-  .alocacao{
-    width: 26.50%;  
-  }
-  
-  .box{
-    margin-top: 2%;
-    padding: 1%;
-    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
-  }
-  
-  .BtnCadastrarCancelar{
-    display: flex;
-    justify-content: flex-end;
-    
-    margin-left: 47%;
-    width: 50%;
-  }
-  
-  
-  button{
-    padding: 1rem;
-    margin-left: 1rem;
-  }
-  
-  
-  /*Responsividade*/
-  @media (max-width:1090px) {
-    .box{
-      border-radius: 5px;
-      width: 100%;
-    }
-  
-    .row{
-      display: flex;
-      flex-direction: column;
-          
-    }
-  
-    .caixa{
-      display: block;
-    }
-  
-  
+  padding: 5px 10px 1rem 10px;
+  color: black;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  border-radius: 10px;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.caixa {
+  display: flex;
+}
+
+.modalidadeVaga {
+  width: 45%;
+  margin-right: 4%;
+}
+
+.localidade {
+  width: 26.5%;
+  margin-right: 1%;
+}
+
+.alocacao {
+  width: 26.5%;
+}
+
+.box {
+  margin-top: 2%;
+  padding: 1%;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.BtnCadastrarCancelar {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-left: 47%;
+  width: 50%;
+}
+
+.outer-wrap{
+  display: flex;
+  width: max-content;
+  justify-content: space-around;
+}
+
+#botao1{
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #A100FF;
+  background-color: #A100FF;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+
+
+li{
+  text-decoration: none;
+  list-style: none;
+  background-color: #403D4E;
+  color: #f1f1f1;
+  border-radius: 10px;
+  margin-top: 5%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 2%;
+  width:max-content;
+  box-shadow: 2px 2px 8px 4px rgba(180, 68, 202, 0.28);
+
+}
+
+i{
+  letter-spacing: 1px;
+  font-weight: bold;  
+  width: 10%;
+}
+
+button {
+  padding: 1rem;
+  margin-left: 1rem;
+  background-color: #231825;
+  color: #f1f1f1;
+
+} 
+
+.de:hover{
+  opacity: 0.8;
+  background-color:darkred;
+  transition: 0.5s;
+}
+
+.c{
+
+}
+
+.ca{
+
+}
+
+
+
+/*Responsividade*/
+@media (max-width: 1090px) {
+  .box {
+    border-radius: 5px;
+    width: 100%;
   }
 
-  
-  ul, li{
-    color: black;
-    font-size: 20px;
+  .row {
+    display: flex;
+    flex-direction: column;
   }
+
+  .caixa {
+    display: block;
+  }
+}
+
