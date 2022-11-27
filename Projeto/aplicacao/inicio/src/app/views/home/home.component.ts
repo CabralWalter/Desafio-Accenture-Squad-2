@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Chart } from 'node_modules/chart.js';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 
 @Component({
   selector: 'app-home',
@@ -14,7 +15,7 @@ export class HomeComponent implements OnInit {
       type: 'bar',
 
       data: {
-        labels: ['A Entrevista', 'Aprovados', 'Contratados', 'Inaptos'],
+        labels: ['A Entrevistar', 'Aprovados', 'Contratados', 'Inaptos'],
         datasets: [
           {
             label: 'Candidatos',
@@ -27,9 +28,13 @@ export class HomeComponent implements OnInit {
           },
         ],
       },
+      plugins: [ChartDataLabels],
       options: {
-        responsive: true,
+        color: 'white'
       },
+      
     });
+    }
+
   }
-}
+

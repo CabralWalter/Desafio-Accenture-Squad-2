@@ -101,3 +101,16 @@
     place-content: space-around;
   }
 }
+
+@media (max-width: 500px) {
+
+  .cartao{
+    width: 44vw;
+    height: 33vh;
+  }
+
+  .card-body {
+    margin: -4px;
+  }
+  
+}

@@ -19,7 +19,7 @@
 }
 
 button {
-  width: fit-content;
+  width: 20%;
   height: 10%;
   background-color: #403D4E;
   border: none;
@@ -33,7 +33,7 @@ a {
   border: none;
 }
 
-.sidenav {
+.sidenav  {
   width: fit-content;
   display: flex;
   height: 55%;
@@ -43,6 +43,7 @@ a {
   padding: 0.5% 0 0 0.5%;
   margin: 1%;
   box-shadow: 2px 2px 8px 4px rgba(31, 31, 31, 0.09);
+  overflow: hidden;
 }
 
 .mat-list-item {
@@ -61,19 +62,7 @@ a {
   opacity: 0.5;
 }
 
-.sidenav i {
-} 
 
-.nav-list {
-} 
-
-
-.nav-list {
-}
-
-
-.sidenav {
-}
 
 .mat-drawer-container {
   position: relative;
@@ -96,6 +85,11 @@ a {
   color: #A07EA0;
   transform: scale(1.1);
 }
+
+.active-link-def > a > #contratados {
+  transform: scale(1.0);
+}
+
 
 /*Responsividade 1880px
 @media (max-width: 1880px) {

@@ -18,6 +18,7 @@
     padding: 2%;
     margin-top: 2%;
     margin-left: 70%;
+    filter: drop-shadow(2px 2px 3px black) hue-rotate(55deg);
     
 }
 

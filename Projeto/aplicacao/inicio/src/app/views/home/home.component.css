@@ -16,7 +16,7 @@
 .home,
 .mat-elevation-z3 {
   text-align: center;
-  width: auto;
+  width: fit-content;
   border-radius: 10px;
   box-shadow: 2px 2px 8px 4px rgb(64 61 78 / 10%);
   background-image: linear-gradient(
@@ -28,9 +28,10 @@
 
 }
 .graphBox {
-  width: auto;
+  width: 75vw;
+  margin-left: 2vw;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-gap: 15px;
   border-radius: 10px;
   background-image: linear-gradient(
@@ -62,7 +63,10 @@
   border: 1px groove #8a2be2;
 
 }
-
+h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
 .vagas, .n-vagas{
     color: #3e3c47;
     letter-spacing: 1px;
@@ -70,12 +74,37 @@
     font-weight: bold;
 }
 
-BoxChart {
+canvas > #myChart02 {
+  width: 200px;
 }
+
+
 
 @media (max-width: 991px) {
   .graphBox {
     grid-template-columns: 1fr;
     height: auto;
   }
+}
+
+
+@media (max-width: 500px) {
+  .Box {
+    margin: 34px 20px 38px 30px;
+    width: 48vw;
+    height: 15vh;
+  }
+
+  .boxChart {
+    width: 60vw;
+  }
+  .graphBox {
+    grid-template-columns: 1fr;
+    width: 60vw;
+  }
+
+  .grafico {
+  width: 61vw;
+  }
+  
 }
