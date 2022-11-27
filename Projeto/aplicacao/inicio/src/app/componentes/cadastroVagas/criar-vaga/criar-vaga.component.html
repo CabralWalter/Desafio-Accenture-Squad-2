@@ -53,21 +53,24 @@
           <label for="form-control" id="LabelDoEndereco">Skill Técnica</label>
           <div class="outer-wrap">
             <div class="inner-wrap">
-              <form [formGroup]="form">
-                <input
+              <form class="skill" [formGroup]="form">
+                <input class="skilltxt" type="text" required="required" placeholder="Adicione uma skill" text="#ref" formControlName="item"/>
+
+                <div class="txtbtn">
+
+                  <input class="skillbtn" type="submit"  (click)="criaItem()">
+
+                </div>
                   
-                    type="text"
-                    placeholder="Adicione uma skill"
-                    text="#ref"
-                    formControlName="item"
-                  />
-                  <input type="submit"  (click)="criaItem()">
                 </form>
-                <div [ngClass]="cadastros.length == 0 ? 'displayEmpty' : ''">
+                <div class="listahs" [ngClass]="cadastros.length == 0 ? 'displayEmpty' : ''">
                   <ul>
                     <li *ngFor="let item of cadastros; let i = index"
                     (click)="deletarItem(i)"
-                    > {{ item }} <i class="fa-solid fa-delete-left"></i></li>
+                    > {{ item }} <i class="fa-solid fa-delete-left"></i>
+                    <span></span>
+                    <span></span>
+                  </li>
                   </ul>
                 </div>
           </div>

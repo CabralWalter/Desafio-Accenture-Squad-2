@@ -53,37 +53,100 @@ textarea {
   justify-content: space-around;
 }
 
-#botao1{
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  border: 1px solid #A100FF;
-  background-color: #A100FF;
-  color: aliceblue;
-  font-weight: bold;
+
+.skill{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.skilltxt{
+  width: 400px;
+  text-transform: capitalize;
+  padding: 0 10px;
+  transition: 0.5s;
+  border: 1px solid #424242;
+}
+
+input.skilltxt:focus,
+input.skilltxt:valid{
+  box-shadow: 0px 0px 4px 2px #424242;  
+  border-radius: 0;
+  outline: 0;
+}
+
+.txtbtn{
+  padding: 0 10px;
+}
+
+input#botao1{
+  border: 1px solid #424242;
+  transition: 0.5s;
 }
 
 
+.txtbtn input#botao1{
+  border-radius: 0;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+input#botao1:hover{
+  box-shadow: 0px 0px 4px 2px #424242; 
+}
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  align-items: center;
+  margin-right: 10px;
+}
 
 li{
+  display: flex;
+  flex-direction: row;
   text-decoration: none;
   list-style: none;
-  background-color: #403D4E;
-  color: #f1f1f1;
-  border-radius: 10px;
-  margin-top: 5%;
+  margin-top: 20px;
   letter-spacing: 1px;
-  font-weight: bold;
-  padding: 2%;
+  align-items: center;
+  padding: 5px;
   width:max-content;
-  box-shadow: 2px 2px 8px 4px rgba(180, 68, 202, 0.28);
-
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 i{
-  letter-spacing: 1px;
-  font-weight: bold;  
-  width: 10%;
+  letter-spacing: 1px; 
+  padding: 0;
+}
+.listahs span{
+  display: flex;
+  padding: 0;
+  width: 20px;
+  height: 2px;
+  background: red;
+  cursor: pointer;
+}
+
+.listahs{
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul span:nth-child(2){
+transform: translate(10px, 5px) rotate(-45deg);
+}
+
+ul span:nth-child(3){
+  transform: translate(-10px, 5px) rotate(45deg);
 }
 
 button {
