@@ -14,7 +14,8 @@ export class CadastroDeletarComponent implements OnInit {
     nome: '',
     nivel: '',
     dataEntrevista: '',
-    email:''
+    email:'',
+    skillTecnica:[]
   }
 
   constructor(private cadastroService: CadastroService, private router: Router, private route: ActivatedRoute) { }
@@ -27,7 +28,7 @@ export class CadastroDeletarComponent implements OnInit {
   }
 
   deletarCadastro(){
-this.cadastroService.deletarCadastro(`${this.candidato.id}`).subscribe(()=>{
+      this.cadastroService.deletarCadastro(`${this.candidato.id}`).subscribe(()=>{
       this.cadastroService.mensagemSucesso("Cadastro excluido com Sucesso");
       this.router.navigate(['/cadastrar']);
     })

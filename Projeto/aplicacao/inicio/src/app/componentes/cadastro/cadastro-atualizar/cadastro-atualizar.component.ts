@@ -10,10 +10,24 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class CadastroAtualizarComponent implements OnInit {
   candidato: Cadastro = {
-    nome: '',
-    nivel: '',
-    dataEntrevista: '',
-    email:''
+    nome:'',
+    email:'',
+    dataEntrevista:'',
+    numero1:'',
+    numero2:'',
+    pais:'',
+    estado:'',
+    cidade:'',
+    bairro:'',
+    nivel:'',
+    nascimento:'',
+    pretencao:'',
+    vaga:'',
+    descri:'',
+    sql:'',
+    lg:'',
+    en:'',
+    skillTecnica:[]
   }
 
   constructor(private cadastroServico: CadastroService, private router: Router, private route: ActivatedRoute) { }

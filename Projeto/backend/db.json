@@ -1,46 +1,45 @@
 {
   "candidatos": [
     {
-      "nome": "igor vinicius",
-      "nivel": "Senior",
-      "dataEntrevista": "2022-10-06",
-      "email": "diegoigor2001@gmail.com",
-      "id": 8
-    },
-    {
-      "nome": "teste123",
-      "nivel": "Senior",
-      "dataEntrevista": "2022-10-08",
-      "email": "diegoigor2001@gmail.com",
-      "id": 9
-    },
-    {
-      "nome": "LEANDRO",
-      "nivel": "Senior",
-      "dataEntrevista": "2022-10-22",
+      "nome": "teste",
       "email": "",
-      "id": 10
-    },
-    {
-      "nome": "Cacau",
+      "dataEntrevista": "2022-11-24T14:11",
+      "numero1": "",
+      "numero2": "",
+      "pais": "",
+      "estado": "",
+      "cidade": "",
+      "bairro": "",
       "nivel": "",
-      "dataEntrevista": "2022-10-28T15:46",
-      "email": "diegoigor2001@gmail.com",
-      "id": 11
-    },
+      "nascimento": "",
+      "pretencao": "",
+      "vaga": "",
+      "descri": "",
+      "sql": "",
+      "lg": "",
+      "en": "",
+      "id": 1,
+      "softSkills": "testinho",
+      "skillTecnica": []
+    }
+  ],
+  "vagas": [
     {
-      "nome": "xuxu belçeza",
-      "nivel": "Plenor",
-      "dataEntrevista": "2022-10-13T13:25",
-      "email": "diegoigor2001@gmail.com",
-      "id": 12
-    },
+      "nomeVaga": "bora bill",
+      "localidade": "Recife",
+      "tempoAlocacao": "2022-11-24",
+      "descricaoVaga": "teste",
+      "idioma": "Inglês",
+      "skillTecnica": [
+        "teste02",
+        "aaa"
+      ],
+      "id": 1
+    }
+  ],
+  "tecnica": [
     {
-      "nome": "Igor vinicius da silva Nascimento",
-      "nivel": "Senior",
-      "dataEntrevista": "2022-10-15T02:22",
-      "email": "diegoigor2001@gmail.com",
-      "id": 13
+      "tecnica": "java"
     }
   ]
 }

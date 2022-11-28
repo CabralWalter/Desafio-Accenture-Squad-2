@@ -12,10 +12,24 @@ export class PreCadastroComponent implements OnInit {
 
 
   candidato: Cadastro = {
-    nome: '',
-    nivel: '',
-    dataEntrevista: '',
-    email:''
+    nome:'',
+    email:'',
+    dataEntrevista:'',
+    numero1:'',
+    numero2:'',
+    pais:'',
+    estado:'',
+    cidade:'',
+    bairro:'',
+    nivel:'',
+    nascimento:'',
+    pretencao:'',
+    vaga:'',
+    descri:'',
+    sql:'',
+    lg:'',
+    en:'',
+    skillTecnica:[]
   }
 
   constructor(private cadastroService: CadastroService, private router: Router) { }
@@ -24,7 +38,6 @@ export class PreCadastroComponent implements OnInit {
   }
   
   criarCadastro(): void{
-   
     //verificar back-end
     this.cadastroService.CriaCandidato(this.candidato).subscribe(()=> {
       this.cadastroService.mensagemSucesso('Operação realizado com sucesso');

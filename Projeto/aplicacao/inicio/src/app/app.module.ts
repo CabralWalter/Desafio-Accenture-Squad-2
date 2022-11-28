@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,12 +18,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { CadastrarComponent } from './views/cadastrar/cadastrar.component';
-import { EntrevistaComponent } from './views/entrevista/entrevista.component';
 import { OmholdComponent } from './views/omhold/omhold.component';
 import { ContratadosComponent } from './views/contratados/contratados.component';
 import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
-import { AnaliseComponent } from './views/analise/analise.component';
 import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import {HttpClientModule} from '@angular/common/http';
@@ -36,7 +34,12 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { CadastroAtualizarComponent } from './componentes/cadastro/cadastro-atualizar/cadastro-atualizar.component';
 import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deletar/cadastro-deletar.component';
-
+import { CriarVagaComponent } from './componentes/cadastroVagas/criar-vaga/criar-vaga.component';
+import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevista.component';
+import { NgChartsModule } from 'ng2-charts';
+import { LerVagasComponent } from './componentes/cadastroVagas/ler-vagas/ler-vagas.component';
+import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vagas.component';
+import {  ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -49,17 +52,18 @@ import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deleta
     NavComponent,
     HomeComponent,
     CadastrarComponent,
-    EntrevistaComponent,
     OmholdComponent,
     ContratadosComponent,
     InaptoComponent,
     VagasComponent,
-    AnaliseComponent,
     PreCadastroComponent,
     CadastroLerComponent,
     CadastroAtualizarComponent,
     CadastroDeletarComponent,
-
+    CriarVagaComponent,
+    EntrevistaComponent,
+    LerVagasComponent,
+    EdtVagasComponent
   ],
   imports: [
     BrowserModule,
@@ -75,9 +79,13 @@ import { CadastroDeletarComponent } from './componentes/cadastro/cadastro-deleta
     FormsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    NgChartsModule,
+    ReactiveFormsModule,
+    BrowserModule
    
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })

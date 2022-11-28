@@ -18,6 +18,7 @@ export class CadastroLerComponent implements OnInit {
 */
 cadastros?: Cadastro[]
 
+
   constructor(private cadastroServico: CadastroService) { }
 
   ngOnInit(): void {
