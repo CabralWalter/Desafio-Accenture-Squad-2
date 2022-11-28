@@ -1,6 +1,7 @@
 <h1 align="center">SISTEMA DE GERENCIAMENTO DE ENTREVISTAS ACCENTURE</h1>
 
 <h2 align="center">SQUAD 2</h2>
+<h2>Descrição do Sistema</h2>
 
 <h3>INTEGRANTES:</h3>
 <h4>Everton Nascimento</h4>
