@@ -24,17 +24,3 @@
           
  <img width="100%" src="https://user-images.githubusercontent.com/103793795/193379042-e0ba704d-de95-4106-a284-cb59a00a68c6.png"/>
 
-
-
-
-
-
-
-<h2>Integrantes</h2>
-Walter Cabral<br />
-Ruan Lucena<br />
-Igor Nascimento<br />
-Everton Sebastião<br />
-Luiz Vinicius Primo<br />
-Lucas Pedro<br />
-João Victor Paes<br />
