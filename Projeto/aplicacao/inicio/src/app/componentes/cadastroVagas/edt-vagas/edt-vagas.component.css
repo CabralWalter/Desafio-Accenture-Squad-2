@@ -188,5 +188,22 @@ button {
   .caixa {
     display: block;
   }
+
+  @media (max-width: 500px) {
+    button {
+      padding: 2px;
+      width: 100%;
+      margin-left: 0rem;
+    }
+    .skilltxt {
+      width: 18vw;
+    } .skill {
+      justify-content: flex-start;
+      
+    } .listahs {
+      width: 280px;
+    }
+    
+  }
 }
 

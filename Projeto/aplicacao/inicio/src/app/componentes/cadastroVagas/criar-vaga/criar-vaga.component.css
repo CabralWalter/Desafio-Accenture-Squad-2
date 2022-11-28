@@ -191,3 +191,25 @@ ul, li{
   color: black;
   font-size: 20px;
 }
+
+@media (max-width: 500px) {
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #btn1, #btn2 {
+    height: 5vh;
+    width: 24vw;
+    padding: 10px;
+    margin: 7px;
+  
+} .BtnCadastrarCancelar {
+  margin-left: 56%;
+} .txtbtn{
+  padding: 4 13px;
+} .skilltxt {
+  width: 18vw;
+}
+
+}
