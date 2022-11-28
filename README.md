@@ -2,15 +2,15 @@
 
 <h2 align="center">SQUAD 2</h2>
 
-<h2>INTEGRANTES:</h2>
-<h3>Everton Nascimento</h3>
-<h3>Igor Nascimento</h3>
-<h3>João Victor Paes</h3>
-<h3>Klaiven Ferreira</h3>
-<h3>Lucas Pedro</h3>
-<h3>Luiz Vinícius Primoo</h3>
-<h3>Ruan Rickelme</h3>
-<h3>Walter Cabral</h3>
+<h3>INTEGRANTES:</h3>
+<h4>Everton Nascimento</h4>
+<h4>Igor Nascimento</h4>
+<h4>João Victor Paes</h4>
+<h4>Klaiven Ferreira</h4>
+<h4>Lucas Pedro</h4>
+<h4>Luiz Vinícius Primoo</h4>
+<h4>Ruan Rickelme</h4>
+<h4>Walter Cabral</h4>
 
 <p>Projeto integrador do Senac em parceria com o porto digital do Recife</p>
 
