@@ -1,4 +1,6 @@
-<h1 align="center">Desafio Accenture - Squad 2 </h1>
+<h1 align="center">SISTEMA DE GERENCIAMENTO DE ENTREVISTAS ACCENTURE</h1>
+
+<h2 align="center">SQUAD 2</h2>
 <p>Projeto integrador do Senac em parceria com o porto digital do Recife</p>
 
 <h2>Tecnologias Usadas <img width="50" src="https://cdn-icons-png.flaticon.com/512/2920/2920252.png"> </h2>
