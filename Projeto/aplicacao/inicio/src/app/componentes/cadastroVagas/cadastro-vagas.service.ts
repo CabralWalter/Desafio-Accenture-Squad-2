@@ -1,3 +1,4 @@
+import { Tecnica } from './criar-vaga/tecnica.model';
 import { Observable } from 'rxjs';
 import { CadastroVagas } from './cadastroVagas.model';
 import { HttpClient } from '@angular/common/http';
@@ -10,6 +11,7 @@ import { Injectable } from '@angular/core';
 export class CadastroVagasService {
 
   baseUrl = " http://localhost:3001/vagas"
+  linkTecnica = " http://localhost:3001/tecnica"
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
@@ -22,6 +24,13 @@ export class CadastroVagasService {
   }
 
   criaVagas(vaga: CadastroVagas): Observable<CadastroVagas>{
+    return this.http.post<CadastroVagas>(this.baseUrl, vaga);
+  }
+  criatecnica(vaga: Array<Tecnica>): Observable<Tecnica>{
+    return this.http.post<Tecnica>(this.baseUrl, vaga);
+  }
+
+  crialista(vaga: CadastroVagas): Observable<CadastroVagas>{
     return this.http.post<CadastroVagas>(this.baseUrl, vaga);
   }
 

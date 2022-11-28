@@ -84,3 +84,22 @@ button{
   padding: 1rem;
   margin-left: 1rem;
 }
+
+@media (max-width:500px) {
+  .caixa{
+    width: 32vh;
+    margin: 0 1% 0 3%;
+   
+  }
+  .DivTelefone, .DivSalario, .DivParaNomeCompleto,.DivParaEndereco,.DivParaEmail,.DivNascimento,.DescricaoCandidato,.NotasEntrada {
+    width: 100%;
+  }
+
+  .boxEntrada {
+    margin-top:10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  
+}

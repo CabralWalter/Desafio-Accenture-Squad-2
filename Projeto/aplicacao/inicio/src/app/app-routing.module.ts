@@ -12,7 +12,6 @@ import { OmholdComponent } from './views/omhold/omhold.component';
 import { ContratadosComponent } from './views/contratados/contratados.component';
 import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
-import { AnaliseComponent } from './views/analise/analise.component';
 import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
 import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevista.component';
 
@@ -40,10 +39,6 @@ const routes: Routes = [
 {
   path: "vagas",
   component: VagasComponent
-},
-{
-  path: "analise",
-  component: AnaliseComponent
 },
 {
   path: "cadastro/pre-cadastro",

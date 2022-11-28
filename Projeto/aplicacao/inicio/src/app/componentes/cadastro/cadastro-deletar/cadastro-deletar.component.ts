@@ -14,7 +14,8 @@ export class CadastroDeletarComponent implements OnInit {
     nome: '',
     nivel: '',
     dataEntrevista: '',
-    email:''
+    email:'',
+    skillTecnica:[]
   }
 
   constructor(private cadastroService: CadastroService, private router: Router, private route: ActivatedRoute) { }

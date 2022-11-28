@@ -1,3 +1,4 @@
+
 export interface CadastroVagas{
     id?: number | undefined;
     nomeVaga?: String,
@@ -5,5 +6,5 @@ export interface CadastroVagas{
     tempoAlocacao?: String,
     descricaoVaga?: String,
     idioma?: String,
-    skillTecnica?: String
+    skillTecnica: any[] 
 }

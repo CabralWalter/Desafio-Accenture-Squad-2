@@ -28,7 +28,8 @@ export class PreCadastroComponent implements OnInit {
     descri:'',
     sql:'',
     lg:'',
-    en:''
+    en:'',
+    skillTecnica:[]
   }
 
   constructor(private cadastroService: CadastroService, private router: Router) { }

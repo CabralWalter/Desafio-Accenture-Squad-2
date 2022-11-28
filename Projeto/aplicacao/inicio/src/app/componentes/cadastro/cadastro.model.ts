@@ -18,8 +18,8 @@ export interface Cadastro{
     lg?: String;
     en?: String;
     softSkills?: String,
-    hardSkills?: String,
     nivelPropsoto?: String,
     salario?: String,
     status?:String,
+    skillTecnica: any[]
 }

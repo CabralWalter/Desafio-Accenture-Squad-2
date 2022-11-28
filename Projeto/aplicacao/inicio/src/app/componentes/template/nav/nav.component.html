@@ -1,5 +1,5 @@
 <mat-sidenav-container class="container1">
-    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="120">
         <!-- <mat-nav-list class="nav-list navegador"> -->
             <button class="default freature" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active-link">
                 <a class="mat-list-item def" >
@@ -20,7 +20,7 @@
             </button>
 
             <button class="freature contratados" routerLink="/contratados" routerLinkActive="active-link-def">
-                <a class="mat-list-item def" >
+                <a class="mat-list-item def" style="font-size: 13px;">
                     Contratados
                 </a>
             </button>
@@ -37,11 +37,7 @@
                 </a>
             </button>
 
-            <button class="default" routerLink="/analise" routerLinkActive="active-link-def">
-                <a class="mat-list-item def" >
-                    Análise
-                </a>
-            </button>
+        
         <!-- </mat-nav-list> -->
     </mat-sidenav>
     <mat-sidenav-content class="content">

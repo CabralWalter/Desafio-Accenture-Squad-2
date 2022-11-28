@@ -49,31 +49,49 @@
               <option>Nativo</option>
             </select>
           </div>
+
           <label for="form-control" id="LabelDoEndereco">Skill Técnica</label>
-          <div class="input-group mb-3">
-            <button class="btn btn-outline-secondary" type="button">Adicionar Skill Técnico</button>
-            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon" [(ngModel)]="vaga.skillTecnica" name="skillTecnica">
-              <option>SQL</option>
-              <option>PL/SQL</option>
-              <option>AWS</option>
+          <div class="outer-wrap">
+            <div class="inner-wrap">
+              <form class="skill" [formGroup]="form">
+                <input class="skilltxt" type="text" required="required" placeholder="Adicione uma skill" text="#ref" formControlName="item"/>
 
-            </select>
-            <select id="inputState" class="form-select">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
+                <div class="txtbtn">
+
+                  <input class="skillbtn" type="submit"  (click)="criaItem()">
+
+                </div>
+                  
+                </form>
+                <div class="listahs" [ngClass]="cadastros.length == 0 ? 'displayEmpty' : ''">
+                  <ul>
+                    <li *ngFor="let item of cadastros; let i = index"
+                    (click)="deletarItem(i)"
+                    > {{ item }} <i class="fa-solid fa-delete-left"></i>
+                    <span></span>
+                    <span></span>
+                  </li>
+                  </ul>
+                </div>
           </div>
-        </div>
-
+          </div>
+        
         <div class="BtnCadastrarCancelar">
           <button type="button" class="btn btn-primary btn-lg cad" id="btn1"
             (click)="criarCadastroVagas() ">Cadastrar</button>
           <button type="button" class="btn btn-secondary btn-lg can" id="btn2" (click)=" cancelar()">Cancelar</button>
         </div>
+        
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
           crossorigin="anonymous"></script>
+
+    
+         
+
+
+
+
+
+        

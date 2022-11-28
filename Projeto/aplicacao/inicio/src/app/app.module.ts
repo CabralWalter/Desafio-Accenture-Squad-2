@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -22,7 +22,6 @@ import { OmholdComponent } from './views/omhold/omhold.component';
 import { ContratadosComponent } from './views/contratados/contratados.component';
 import { InaptoComponent } from './views/inapto/inapto.component';
 import { VagasComponent } from './views/vagas/vagas.component';
-import { AnaliseComponent } from './views/analise/analise.component';
 import { PreCadastroComponent } from './componentes/cadastro/pre-cadastro/pre-cadastro.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import {HttpClientModule} from '@angular/common/http';
@@ -40,7 +39,7 @@ import { EntrevistaComponent } from './componentes/cadastro/entrevista/entrevist
 import { NgChartsModule } from 'ng2-charts';
 import { LerVagasComponent } from './componentes/cadastroVagas/ler-vagas/ler-vagas.component';
 import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vagas.component';
-
+import {  ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -57,7 +56,6 @@ import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vag
     ContratadosComponent,
     InaptoComponent,
     VagasComponent,
-    AnaliseComponent,
     PreCadastroComponent,
     CadastroLerComponent,
     CadastroAtualizarComponent,
@@ -82,9 +80,12 @@ import { EdtVagasComponent } from './componentes/cadastroVagas/edt-vagas/edt-vag
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    NgChartsModule
+    NgChartsModule,
+    ReactiveFormsModule,
+    BrowserModule
    
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })
